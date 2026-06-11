@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "4174b24596fe09ca",
+        "id": "b993047239aca1aa",
         "type": "tabs",
         "children": [
           {
-            "id": "846f0d8f97b0ce23",
+            "id": "1b06e2fdf2fdb9da",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": "Homelab/Homelabbing-Tracker.md",
-                "bFile": "Homelab/Homelabbing-Tracker.md",
-                "aRef": ""
+                "file": "Homelab/Mac Apps.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "diff",
-              "title": "Diff: Homelabbing-Tracker  (Working Tree)"
+              "icon": "lucide-file",
+              "title": "Mac Apps"
             }
           }
         ]
@@ -156,27 +156,17 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "PPL.md",
+                "file": "Homelab/Mac Apps.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of PPL"
-            }
-          },
-          {
-            "id": "7bb17d4333773317",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
+              "title": "Outline of Mac Apps"
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -198,8 +188,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "846f0d8f97b0ce23",
+  "active": "1b06e2fdf2fdb9da",
   "lastOpenFiles": [
+    "Java Basics Notes.md",
+    "Important Academic Material.md",
+    "HTML Notes.md",
+    "Remote Program Execution.md",
     "Homelab/Homelabbing-Tracker.md",
     "Homelab/Homelab Ideas to GO.md",
     "SSH.md",
@@ -239,9 +233,6 @@
     "Assets/Pasted image 20260514212652.png",
     "Assets/Pasted image 20260514212231.png",
     "OS",
-    "WT/Servlets.md",
-    "WT/JSP.md",
-    "WT/JDBC.md",
     "Projects",
     "Files",
     "System Design Handbook.pdf",
