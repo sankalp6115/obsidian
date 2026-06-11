@@ -13,6 +13,8 @@ Sample app to saving ideas quickly in a textbox.
 #### Quotes-Generator
 Gives random quotes. Thats all.
 
+#### AdGuardHome
+Adblocker self hosted
 
 
 ### More ideas

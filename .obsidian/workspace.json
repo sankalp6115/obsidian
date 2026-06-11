@@ -11,14 +11,14 @@
             "id": "846f0d8f97b0ce23",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "split-diff-view",
               "state": {
-                "file": "CSS Page-transition.md",
-                "mode": "source",
-                "source": false
+                "aFile": "Homelab/Homelabbing-Tracker.md",
+                "bFile": "Homelab/Homelabbing-Tracker.md",
+                "aRef": ""
               },
-              "icon": "lucide-file",
-              "title": "CSS Page-transition"
+              "icon": "diff",
+              "title": "Diff: Homelabbing-Tracker  (Working Tree)"
             }
           }
         ]
@@ -164,13 +164,23 @@
               "icon": "lucide-list",
               "title": "Outline of PPL"
             }
+          },
+          {
+            "id": "7bb17d4333773317",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -180,11 +190,22 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "bases:Create new base": false
+      "bases:Create new base": false,
+      "markdown-importer:Open format converter": false,
+      "publish:Publish changes...": false,
+      "random-note:Open random note": false,
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "obsidian-git:Open Git source control": false
     }
   },
   "active": "846f0d8f97b0ce23",
   "lastOpenFiles": [
+    "Homelab/Homelabbing-Tracker.md",
+    "Homelab/Homelab Ideas to GO.md",
+    "SSH.md",
+    "Redis.md",
+    "Opportunities.md",
+    "Guide-Blogs/Linux.md",
     "CSS Page-transition.md",
     "Untitled.base",
     "Untitled 1.canvas",
@@ -196,18 +217,12 @@
     "Assets/Pasted image 20260512173212.png",
     "Projects/Projects Todo.md",
     "Homelab/Mac Apps.md",
-    "Homelab/Homelab Ideas to GO.md",
-    "Homelab/Homelabbing-Tracker.md",
     "Homelab/Server Practices.md",
     "Homelab",
     "Screenshot Classifier.md",
-    "Redis.md",
-    "Opportunities.md",
     "Homelabbing.md",
     "Homelab.md",
     "Melodious Blog.md",
-    "Guide-Blogs/Linux.md",
-    "SSH.md",
     "Files/WT Assignment.md",
     "Guide-Blogs/Untitled.base",
     "Files/WT File.md",
