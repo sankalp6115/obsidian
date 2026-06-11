@@ -1,0 +1,236 @@
+{
+  "main": {
+    "id": "f3a13014b0d9ae2b",
+    "type": "split",
+    "children": [
+      {
+        "id": "4174b24596fe09ca",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "846f0d8f97b0ce23",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CSS Page-transition.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "CSS Page-transition"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "c997870dca088fcf",
+    "type": "split",
+    "children": [
+      {
+        "id": "ad7c104f8ba239a2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5cf1cc9a201df256",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "f228ca33cdc85aa6",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "ad1b660a866719f6",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 265.5
+  },
+  "right": {
+    "id": "afc076b8791da82c",
+    "type": "split",
+    "children": [
+      {
+        "id": "33c6612edb8a506c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a0d4ace4f0427b30",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Guide-Blogs/Linux.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Linux"
+            }
+          },
+          {
+            "id": "d347cd13be97046d",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "PPL.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from PPL"
+            }
+          },
+          {
+            "id": "41d8c47dd73d7353",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "5a9d532c67f29e46",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "d5fe06e86ff63d3f",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "PPL.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of PPL"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "846f0d8f97b0ce23",
+  "lastOpenFiles": [
+    "CSS Page-transition.md",
+    "Untitled.base",
+    "Untitled 1.canvas",
+    "Untitled.canvas",
+    "Homelab/Open Source Projects.md",
+    "Projects/Untitled.base",
+    "Projects/WhatsGoingOn.md",
+    "Setting up Termux.md",
+    "Assets/Pasted image 20260512173212.png",
+    "Projects/Projects Todo.md",
+    "Homelab/Mac Apps.md",
+    "Homelab/Homelab Ideas to GO.md",
+    "Homelab/Homelabbing-Tracker.md",
+    "Homelab/Server Practices.md",
+    "Homelab",
+    "Screenshot Classifier.md",
+    "Redis.md",
+    "Opportunities.md",
+    "Homelabbing.md",
+    "Homelab.md",
+    "Melodious Blog.md",
+    "Guide-Blogs/Linux.md",
+    "SSH.md",
+    "Files/WT Assignment.md",
+    "Guide-Blogs/Untitled.base",
+    "Files/WT File.md",
+    "Files/File Management.md",
+    "Guide-Blogs/System Design Blog.md",
+    "Assets/Pasted image 20260517225701.png",
+    "Assets/Pasted image 20260515223640.png",
+    "Assets/Pasted image 20260515223547.png",
+    "OS/File Management.md",
+    "Assets/Pasted image 20260514215124.png",
+    "Assets/Pasted image 20260514214348.png",
+    "Assets/Pasted image 20260514213839.png",
+    "Assets/Pasted image 20260514213312.png",
+    "Assets/Pasted image 20260514212652.png",
+    "Assets/Pasted image 20260514212231.png",
+    "OS",
+    "WT/Servlets.md",
+    "WT/JSP.md",
+    "WT/JDBC.md",
+    "Projects",
+    "Files",
+    "System Design Handbook.pdf",
+    "System Design Concepts.pdf",
+    "Guide-Blogs"
+  ]
+}
