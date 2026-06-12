@@ -4,17 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "0ddd73c25cb976eb",
+        "id": "91005843c1856335",
         "type": "tabs",
         "children": [
           {
-            "id": "7e99165bbe4a0c87",
+            "id": "64bbba3a8295d044",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
+              "type": "pdf",
+              "state": {
+                "file": "Notes/OOPS.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "OOPS"
             }
           }
         ]
@@ -74,7 +76,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 265.5
+    "width": 224.50247192382812
   },
   "right": {
     "id": "afc076b8791da82c",
@@ -90,6 +92,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Notes/OOPS.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,7 +102,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for OOPS"
             }
           },
           {
@@ -137,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Excalidraw/Drawing 2026-06-12 01.12.59.excalidraw.md",
+                "file": "Notes/OOPS.pdf",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Drawing 2026-06-12 01.12.59.excalidraw"
+              "title": "Outline of OOPS"
             }
           },
           {
@@ -155,79 +158,87 @@
               "icon": "git-pull-request",
               "title": "Source Control"
             }
+          },
+          {
+            "id": "90c5b8445f1c4707",
+            "type": "leaf",
+            "state": {
+              "type": "smart-connections-view",
+              "state": {},
+              "icon": "smart-connections",
+              "title": "Connections"
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 327.5
+    "width": 232.5
   },
   "left-ribbon": {
     "hiddenItems": {
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
       "markdown-importer:Open format converter": false,
-      "publish:Publish changes...": false,
-      "random-note:Open random note": false,
       "obsidian-excalidraw-plugin:New drawing": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "smart-connections:Smart Connections: Open connections view": false,
+      "smart-connections:Toggle Footer Connections": false,
+      "smart-connections:Smart Connections: Open random connection": false
     }
   },
-  "active": "5cf1cc9a201df256",
+  "active": "64bbba3a8295d044",
   "lastOpenFiles": [
-    "CSS Page-transition.md",
-    "Excalidraw/Drawing 2026-06-12 01.12.59.excalidraw.md",
-    "Archive",
-    "Todo.md",
-    "Homelab/Mac Apps.md",
-    "Excalidraw/Drawing 2026-06-12 01.10.08.excalidraw.md",
-    "Excalidraw",
-    "Archive.zip",
-    "Java Basics Notes.md",
-    "Important Academic Material.md",
-    "HTML Notes.md",
-    "Remote Program Execution.md",
-    "Homelab/Homelabbing-Tracker.md",
-    "Homelab/Homelab Ideas to GO.md",
-    "SSH.md",
-    "Redis.md",
+    "Notes/More.pdf",
+    "Java/Java Notes.pdf",
+    "Java/Codes.pdf",
+    "Java/Binary Search.pdf",
+    "Java",
+    "Backend/Websockets.md",
+    "Backend/XML.md",
+    "Backend/Servlets.md",
+    "Backend/Redis.md",
+    "Backend/JSP.md",
+    "Backend/JDBC.md",
+    "Backend/Java Basics Notes.md",
     "Opportunities.md",
+    "Py Lib.md",
+    "Mac Apps.md",
+    "Melodious Blog.md",
+    "Guide-Blogs/AutoHotKey.md",
+    "Extras",
+    "Projects/Screenshot Classifier.md",
+    "Important Academic Material.md",
+    "Projects/Projects Todo.md",
+    "Projects/Resources.md",
+    "Javascript/My Packages.md",
+    "Javascript/JS Libs.md",
     "Guide-Blogs/Linux.md",
-    "Untitled.base",
+    "Guide-Blogs/System Design Blog.md",
+    "Files/System Design Assignment.md",
+    "Files/WT File.md",
+    "Javascript/CSS Page-transition.md",
+    "WhatsGoingOn.md",
+    "Javascript",
+    "Projects/Untitled.md",
+    "Backend",
+    "Javascript/CSS.pdf",
+    "Javascript/CSS Reference Screenshots.pdf",
+    "Javascript/JS.pdf",
+    "Assets/Pasted image 20260612013813.png",
+    "Assets/Pasted image 20260612013227.png",
     "Untitled 1.canvas",
     "Untitled.canvas",
-    "Homelab/Open Source Projects.md",
-    "Projects/Untitled.base",
-    "Projects/WhatsGoingOn.md",
-    "Setting up Termux.md",
     "Assets/Pasted image 20260512173212.png",
-    "Projects/Projects Todo.md",
-    "Homelab/Server Practices.md",
-    "Homelab",
-    "Screenshot Classifier.md",
-    "Homelabbing.md",
-    "Homelab.md",
-    "Melodious Blog.md",
-    "Files/WT Assignment.md",
-    "Guide-Blogs/Untitled.base",
-    "Files/WT File.md",
     "Assets/Pasted image 20260517225701.png",
     "Assets/Pasted image 20260515223640.png",
     "Assets/Pasted image 20260515223547.png",
     "Assets/Pasted image 20260514215124.png",
     "Assets/Pasted image 20260514214348.png",
     "Assets/Pasted image 20260514213839.png",
-    "Assets/Pasted image 20260514213312.png",
-    "Assets/Pasted image 20260514212652.png",
-    "Assets/Pasted image 20260514212231.png",
-    "OS",
-    "Projects",
-    "Files"
+    "Assets/Pasted image 20260514213312.png"
   ]
 }
