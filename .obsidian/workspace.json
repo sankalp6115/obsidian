@@ -11,12 +11,14 @@
             "id": "64bbba3a8295d044",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Notes/OOPS.pdf"
+                "file": "Projects/Resources.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "OOPS"
+              "icon": "lucide-file",
+              "title": "Resources"
             }
           }
         ]
@@ -192,6 +194,10 @@
   },
   "active": "64bbba3a8295d044",
   "lastOpenFiles": [
+    "Melodious Blog.md",
+    "Projects/Projects Todo.md",
+    "WhatsGoingOn.md",
+    "Notes/OOPS.pdf",
     "Notes/More.pdf",
     "Java/Java Notes.pdf",
     "Java/Codes.pdf",
@@ -207,12 +213,10 @@
     "Opportunities.md",
     "Py Lib.md",
     "Mac Apps.md",
-    "Melodious Blog.md",
     "Guide-Blogs/AutoHotKey.md",
     "Extras",
     "Projects/Screenshot Classifier.md",
     "Important Academic Material.md",
-    "Projects/Projects Todo.md",
     "Projects/Resources.md",
     "Javascript/My Packages.md",
     "Javascript/JS Libs.md",
@@ -221,13 +225,10 @@
     "Files/System Design Assignment.md",
     "Files/WT File.md",
     "Javascript/CSS Page-transition.md",
-    "WhatsGoingOn.md",
     "Javascript",
     "Projects/Untitled.md",
     "Backend",
     "Javascript/CSS.pdf",
-    "Javascript/CSS Reference Screenshots.pdf",
-    "Javascript/JS.pdf",
     "Assets/Pasted image 20260612013813.png",
     "Assets/Pasted image 20260612013227.png",
     "Untitled 1.canvas",
