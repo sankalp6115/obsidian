@@ -270,18 +270,13 @@ cookie.setHttpOnly(true);cookie.setSecure(true);
 
 - Data can be intercepted
 
----
-
 ## **8. Input Validation**
-
 Always validate:
-
 - Forms
 - URL parameters
 - Headers
 
 ## **Best Practices Summary**
-
 - Always use HTTPS
 - Use HttpSession instead of custom tracking
 - Set cookies as Secure + HttpOnly

@@ -1,7 +1,6 @@
 
 | Code With Harry ke Notes    | [https://www.codewithharry.com/notes/](https://www.codewithharry.com/notes/)                                                                         |
 | --------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
-| CSS Reference               | [https://developer.mozilla.org/en-US/docs/Web/CSS/Reference](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference)                             |
 | Some link tree              | [https://linktr.ee/bzlearnin](https://linktr.ee/bzlearnin)                                                                                           |
 | Time Complexity AI          | [https://www.timecomplexity.ai](https://www.timecomplexity.ai)                                                                                       |
 | Lots Of Educational Courses | [https://www.mindluster.com/](https://www.mindluster.com/)                                                                                           |

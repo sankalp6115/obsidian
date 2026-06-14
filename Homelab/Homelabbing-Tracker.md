@@ -24,7 +24,7 @@ Adblocker self hosted
 [[Open Source Projects]]
 
 ### Server Practices
-[[../Server Practices]]
+[[../DevOps/Server Practices]]
 
 Todo
 [Open Task List](ms-to-do:)
