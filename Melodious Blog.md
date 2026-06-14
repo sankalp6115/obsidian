@@ -243,10 +243,7 @@ For hosting:
 ## Final Thought
 
 Most student projects are built to be submitted.
-
 This one was built to be used.
-
 That single difference changes how you design, build, and evolve software.
-
 And once you experience using something you built every day,
 you stop building for completion-and start building for quality.
