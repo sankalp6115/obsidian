@@ -4,39 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "91005843c1856335",
+        "id": "cd3bf1860d4a3f87",
         "type": "tabs",
         "children": [
           {
-            "id": "64bbba3a8295d044",
+            "id": "03410c39220415de",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Melodious Blog.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Melodious Blog"
-            }
-          },
-          {
-            "id": "ce84e54f85f91d9b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Untitled.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Untitled"
+              "title": "New tab"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -207,10 +188,11 @@
       "smart-connections:Smart Connections: Open random connection": false
     }
   },
-  "active": "ce84e54f85f91d9b",
+  "active": "5cf1cc9a201df256",
   "lastOpenFiles": [
     "Melodious Blog.md",
-    "Untitled.md",
+    "WhatsGoingOn.md",
+    "DevOps/Cron Jobs.md",
     "Mac Apps.md",
     "Java/Java Notes.pdf",
     "Java/Codes.pdf",
@@ -228,7 +210,6 @@
     "Backend/Applet.md",
     "Projects/Resources.md",
     "Projects/Projects Todo.md",
-    "WhatsGoingOn.md",
     "Notes/OOPS.pdf",
     "Notes/More.pdf",
     "Java",

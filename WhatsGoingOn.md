@@ -37,7 +37,7 @@
 - Proficient working with VMs and Linux
 
 ### Smaller Skills
-SSH, Good Debugging
+SSH Jumping, Cron
 
 ### Certificates
 - GDSC Orientation and Mini Hackathon
