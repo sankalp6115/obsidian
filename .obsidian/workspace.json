@@ -11,10 +11,14 @@
             "id": "03410c39220415de",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "WhatsGoingOn.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "WhatsGoingOn"
             }
           }
         ]
@@ -188,11 +192,12 @@
       "smart-connections:Smart Connections: Open random connection": false
     }
   },
-  "active": "5cf1cc9a201df256",
+  "active": "03410c39220415de",
   "lastOpenFiles": [
-    "Melodious Blog.md",
+    "Devops.md",
     "WhatsGoingOn.md",
     "DevOps/Cron Jobs.md",
+    "Melodious Blog.md",
     "Mac Apps.md",
     "Java/Java Notes.pdf",
     "Java/Codes.pdf",
@@ -224,7 +229,6 @@
     "Projects/Screenshot Classifier.md",
     "Javascript/My Packages.md",
     "Javascript/JS Libs.md",
-    "Guide-Blogs/Linux.md",
     "Javascript",
     "Assets/Pasted image 20260612013813.png",
     "Assets/Pasted image 20260612013227.png",
