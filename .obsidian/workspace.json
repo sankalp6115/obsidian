@@ -11,10 +11,14 @@
             "id": "07426e772328da05",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Homelab/Homelab Ideas to GO.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Homelab Ideas to GO"
             }
           }
         ]
@@ -74,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "afc076b8791da82c",
@@ -192,6 +195,7 @@
   },
   "active": "07426e772328da05",
   "lastOpenFiles": [
+    "Homelab/Homelabbing-Tracker.md",
     "DevOps/Linux.md",
     "Assets/Pasted image 20260617143712.png",
     "DevOps/SSH.md",
@@ -227,7 +231,6 @@
     "Guide-Blogs/AutoHotKey.md",
     "Extras",
     "Projects/Screenshot Classifier.md",
-    "Javascript/My Packages.md",
     "Javascript",
     "Assets/Pasted image 20260612013813.png",
     "Assets/Pasted image 20260612013227.png",

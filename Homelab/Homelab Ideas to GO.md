@@ -7,6 +7,7 @@ Grafana
 OpenMediaVault
 
 ### Gotta Explore
+Nginx Proxy Manager
 Homepage / Heimdall / Homarr
 Portainer
 Proxmox VE.
