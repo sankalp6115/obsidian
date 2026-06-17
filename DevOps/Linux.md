@@ -77,6 +77,28 @@ Options
 -L : Find the longest line length
 
 eg. cat error_logs.txt | grep "connection refused" | wc -l
-
-### Now we want to find a file on server OS
 #### find
+search for files and directories based on specific attributes like name, size, type, modification 
+time, or permissions
+
+eg. find / -name "*.conf *" \ grep db
+
+#### diff
+To compare and find difference between two files
+
+eg. diff db.conf db.conf.backup
+
+#### curl 
+Client-URL
+CLI-based tool to interact with apis, supports http, https, sftp, ftp ...
+Used to transfer data to and from network servers and debugging.
+eg. curl \<URL\>
+
+Options
+-I : Fetches only headers of a webpage
+
+#### vim
+Code editor in CLI-mode
+Insert mode, Normal mode, Command mode
+ 
+
