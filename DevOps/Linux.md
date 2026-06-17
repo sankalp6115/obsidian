@@ -2,11 +2,9 @@
 tmux
 wget
 alpine requires repo # removal change
-alpine uses apk
-ubuntu uses apt
 
 ### rsync command
-keeps content synced
+keeps content synced between two directories.
 ```bash
 rsync -avz --progress -e "ssh -p 8022" \
   --exclude='node_modules' \
@@ -16,7 +14,7 @@ rsync -avz --progress -e "ssh -p 8022" \
 ```
 
 ### fswatch
-
+Watches a folder for changes and executes a command on event.
 
 ### conda
 ![[Pasted image 20260514023342.png]]
@@ -100,5 +98,29 @@ Options
 #### vim
 Code editor in CLI-mode
 Insert mode, Normal mode, Command mode
- 
+i - insert mode
+esc - normal mode
+: command mode
 
+:q - quit 
+:q! - quit without save
+:w - save (write) the file
+:wq or ZZ - save and quit
+:x - save and quit (only if changes were made)
+
+#### File permissions
+
+![](../Assets/Pasted%20image%2020260617143712.png)
+
+### chmod
+Change mode command modifies file permissions
+r(read) = 4
+w(write) = 2
+x(execute) = 1
+
+chmod 777 file.txt - Full permissions(r,w,x) for all
+chmod 755 file.sh - Owner : rwx & Others : rx
+chmod 644 file.txt - Owner : rw & Others : r
+chmod 600 private.txt - Only owner can read and write
+
+ 
