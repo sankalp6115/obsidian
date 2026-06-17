@@ -63,5 +63,20 @@ Redirection is used to redirect output of a command to a file.
 eg. cat error.log | grep Database > db_errors.txt
 Only outputs those lines from error.log file content which contain the word "Database" and redirects them to db_errors.txt file. 
 
-#### cp [ source ] [  ]
- 
+#### cp \[ source \] \[destination\]
+ Copies file or folders from source to destination.
+
+#### wc
+Word count command used to count number of lines, words, characters in a file or standard input.
+
+Options
+-l : Count lines
+-w : Count words
+-c : Count bytes
+-m : Count characters
+-L : Find the longest line length
+
+eg. cat error_logs.txt | grep "connection refused" | wc -l
+
+### Now we want to find a file on server OS
+#### find
