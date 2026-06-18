@@ -46,9 +46,23 @@
               "icon": "lucide-file",
               "title": "Networking"
             }
+          },
+          {
+            "id": "3c800d10dec1048b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Networking/Proxies in JS.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Proxies in JS"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -105,7 +119,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 300.50390243530273
   },
   "right": {
     "id": "afc076b8791da82c",
@@ -220,10 +234,11 @@
       "smart-connections:Smart Connections: Open random connection": false
     }
   },
-  "active": "4f212c466b99eb02",
+  "active": "3c800d10dec1048b",
   "lastOpenFiles": [
-    "Excalidraw/type-of-connection.excalidraw.md",
     "Networking/Networking.md",
+    "Networking/Proxies in JS.md",
+    "Excalidraw/type-of-connection.excalidraw.md",
     "Homelab/Homelab Ideas to GO.md",
     "Networking",
     "Homelab/Homelabbing-Tracker.md",
@@ -257,7 +272,6 @@
     "Backend/Servlets.md",
     "Backend/Redis.md",
     "Backend/JSP.md",
-    "Backend/JDBC.md",
     "Extras",
     "Assets/Pasted image 20260612013813.png",
     "Assets/Pasted image 20260612013227.png",
