@@ -12,7 +12,6 @@ App to remotely control the server machine mainly concerned for remote gaming se
 Sample app to saving ideas quickly in a textbox.
 #### Quotes-Generator
 Gives random quotes. Thats all.
-
 #### AdGuardHome
 Adblocker self hosted
 
