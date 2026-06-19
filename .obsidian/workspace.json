@@ -60,9 +60,21 @@
               "icon": "lucide-file",
               "title": "Proxies in JS"
             }
+          },
+          {
+            "id": "2fd1a442b111c9e0",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Homelab/Jellyfin Termux Debug Log.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "Jellyfin Termux Debug Log"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -234,10 +246,15 @@
       "smart-connections:Smart Connections: Open random connection": false
     }
   },
-  "active": "3c800d10dec1048b",
+  "active": "2fd1a442b111c9e0",
   "lastOpenFiles": [
-    "Networking/Networking.md",
+    "Networking/Jellyfin Installation Problems and Fixes.md",
+    "Homelab/Jellyfin Termux Debug Log.pdf",
+    "DevOps/Devops.md",
+    "Homelab/Jellyfin_Termux_Debug_Log.docx",
+    "Homelab/Unconfirmed 208316.crdownload",
     "Networking/Proxies in JS.md",
+    "Networking/Networking.md",
     "Excalidraw/type-of-connection.excalidraw.md",
     "Homelab/Homelab Ideas to GO.md",
     "Networking",
@@ -266,13 +283,7 @@
     "Projects/Resources.md",
     "Projects/Projects Todo.md",
     "Notes/OOPS.pdf",
-    "Notes/More.pdf",
-    "Java",
     "Backend/XML.md",
-    "Backend/Servlets.md",
-    "Backend/Redis.md",
-    "Backend/JSP.md",
-    "Extras",
     "Assets/Pasted image 20260612013813.png",
     "Assets/Pasted image 20260612013227.png",
     "Untitled 1.canvas",
