@@ -11,10 +11,14 @@
             "id": "fe1c0dec10a66844",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Javascript/Time Formatting.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Time Formatting"
             }
           }
         ]
@@ -189,8 +193,9 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "fe1c0dec10a66844",
+  "active": "5cf1cc9a201df256",
   "lastOpenFiles": [
+    "Javascript/Time Formatting.md",
     "Excalidraw/type-of-connection.excalidraw.md",
     "Homelab/Jellyfin Termux Debug Log.pdf",
     "Homelab/Jellyfin Installation Problems and Fixes.md",
