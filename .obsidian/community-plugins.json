@@ -3,5 +3,7 @@
   "obsidian-git",
   "smart-connections",
   "excalibrain",
-  "dataview"
+  "dataview",
+  "templater-obsidian",
+  "obsidian-tasks-plugin"
 ]

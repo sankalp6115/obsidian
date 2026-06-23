@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Homelab/Open Source Projects.md",
+                "file": "Git and Github.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Open Source Projects"
+              "title": "Git and Github"
             }
           }
         ]
@@ -190,11 +190,13 @@
       "obsidian-git:Open Git source control": false,
       "smart-connections:Smart Connections: Open connections view": false,
       "smart-connections:Toggle Footer Connections": false,
-      "smart-connections:Smart Connections: Open random connection": false
+      "smart-connections:Smart Connections: Open random connection": false,
+      "templater-obsidian:Templater": false
     }
   },
   "active": "07426e772328da05",
   "lastOpenFiles": [
+    "Homelab/Open Source Projects.md",
     "Homelab/Homelabbing-Tracker.md",
     "Homelab/Homelab Ideas to GO.md",
     "Excalidraw/type-of-connection.excalidraw.md",
