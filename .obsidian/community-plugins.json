@@ -2,8 +2,8 @@
   "obsidian-excalidraw-plugin",
   "obsidian-git",
   "smart-connections",
-  "excalibrain",
-  "dataview",
   "templater-obsidian",
-  "obsidian-tasks-plugin"
+  "obsidian-tasks-plugin",
+  "dataview",
+  "excalibrain"
 ]
