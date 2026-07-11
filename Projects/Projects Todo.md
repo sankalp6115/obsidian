@@ -69,17 +69,11 @@ You already messed with cursors, UI control, new-tab pages.
 Now go full mad scientist:
 
 Create a browser extension that:
-
 • tracks what the user is trying to do
-
 • auto-groups tabs by intent
-
 • auto-summarizes
-
 • predicts which tab you’ll need next
-
 • hides distraction in real-time
-
 Think of it as:
 
 “GitHub Copilot, but for your browser”

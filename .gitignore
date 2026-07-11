@@ -1,0 +1,13 @@
+.smart-env
+.obsidian/*
+
+!.obsidian/app.json
+!.obsidian/appearance.json
+!.obsidian/community-plugins.json
+!.obsidian/core-plugins.json
+!.obsidian/hotkeys.json
+
+!.obsidian/plugins/
+
+.trash/
+.DS_Store

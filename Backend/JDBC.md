@@ -63,8 +63,6 @@
 
 #### **2.1 Key Interfaces and Classes**
 
-java
-
 ```java
 // Core JDBC Interfaces
 java.sql.Driver             // Database driver
@@ -98,8 +96,6 @@ java.sql.DatabaseMetaData   // Database metadata
 
 ##### **Step 1: Load the JDBC Driver**
 
-java
-
 ```java
 // Method 1: Using Class.forName() (older approach)
 Class.forName("com.mysql.cj.jdbc.Driver");
@@ -109,8 +105,6 @@ Class.forName("com.mysql.cj.jdbc.Driver");
 ```
 
 **Common JDBC Drivers:**
-
-java
 
 ```java
 // MySQL
@@ -131,8 +125,6 @@ java
 
 ##### **Step 2: Establish Connection**
 
-java
-
 ```java
 import java.sql.*;
 
@@ -150,8 +142,6 @@ public class DatabaseConnection {
 ```
 
 **Connection URL Formats:**
-
-java
 
 ```java
 // MySQL
@@ -177,8 +167,6 @@ java
 
 ##### **Step 3: Create Statement**
 
-java
-
 ```java
 Connection conn = DriverManager.getConnection(DB_URL, USER, PASS);
 
@@ -200,8 +188,6 @@ CallableStatement cstmt = conn.prepareCall(
 
 ##### **Step 4: Execute Query/Update**
 
-java
-
 ```java
 // For SELECT queries - returns ResultSet
 ResultSet rs = stmt.executeQuery("SELECT * FROM users");
@@ -217,8 +203,6 @@ boolean hasResultSet = stmt.execute("SELECT * FROM users");
 
 ##### **Step 5: Process ResultSet**
 
-java
-
 ```java
 while (rs.next()) {
     int id = rs.getInt("id");
@@ -230,8 +214,6 @@ while (rs.next()) {
 ```
 
 ##### **Step 6: Close Resources**
-
-java
 
 ```java
 // Always close in reverse order: ResultSet → Statement → Connection
@@ -261,8 +243,6 @@ try (Connection conn = DriverManager.getConnection(DB_URL, USER, PASS);
 ### **4. Complete JDBC Examples**
 
 #### **4.1 Database Setup**
-
-sql
 
 ```sql
 -- Create database
@@ -306,8 +286,6 @@ INSERT INTO courses (course_code, course_name, credits, department) VALUES
 ```
 
 #### **4.2 Complete CRUD Operations Example**
-
-java
 
 ```java
 import java.sql.*;
@@ -721,8 +699,6 @@ public class JDBCCompleteExample {
 
 #### **4.3 Batch Processing Example**
 
-java
-
 ```java
 import java.sql.*;
 import java.util.List;
@@ -777,8 +753,6 @@ public class BatchProcessingExample {
 }
 ```
 
----
-
 ### **5. Transaction Management**
 
 #### **5.1 What is a Transaction?**
@@ -791,8 +765,6 @@ A **transaction** is a sequence of operations performed as a single logical unit
 - **D**urability: Committed changes persist
 
 #### **5.2 Transaction Management Example**
-
-java
 
 ```java
 import java.sql.*;
@@ -823,8 +795,7 @@ public class TransactionExample {
             }
             
             // Add to second student's account
-            String addSql = "UPDATE student_accounts SET balance = balance + ? " +
-                           "WHERE student_id = ?";
+            String addSql = "UPDATE student_accounts SET balance = balance + ? " + "WHERE student_id = ?";
             try (PreparedStatement addStmt = conn.prepareStatement(addSql)) {
                 addStmt.setDouble(1, amount);
                 addStmt.setInt(2, toStudentId);
@@ -899,8 +870,6 @@ The `javax.sql` package provides enhanced database connectivity features beyond 
 - Distributed transaction support
 - Better performance and scalability
 
-java
-
 ```java
 // DataSource example
 Context ctx = new InitialContext();
@@ -913,8 +882,6 @@ Connection conn = ds.getConnection();
 **Three approaches:**
 
 **A. Direct JDBC in JSP (Not Recommended)**
-
-jsp
 
 ```jsp
 <%@ page import="java.sql.*" %>
@@ -936,8 +903,6 @@ jsp
 
 **B. Using JavaBeans (Better)**
 
-jsp
-
 ```jsp
 <jsp:useBean id="dbBean" class="com.example.DatabaseBean" scope="session"/>
 <jsp:setProperty name="dbBean" property="*"/>
@@ -950,8 +915,6 @@ jsp
 ```
 
 **C. Using JSTL & EL (Best Practice)**
-
-jsp
 
 ```jsp
 <%@ taglib uri="http://java.sun.com/jsp/jstl/sql" prefix="sql" %>
@@ -972,8 +935,6 @@ Common database operations in web applications:
 
 **User Authentication:**
 
-java
-
 ```java
 public boolean authenticateUser(String username, String password) {
     String sql = "SELECT * FROM users WHERE username=? AND password=?";
@@ -993,8 +954,6 @@ public boolean authenticateUser(String username, String password) {
 - **Delete**: Remove records
 
 **Transaction Management:**
-
-java
 
 ```java
 try {
@@ -1018,8 +977,6 @@ try {
 
 **Example Bean:**
 
-java
-
 ```java
 public class UserBean implements Serializable {
     private String name;
@@ -1036,8 +993,6 @@ public class UserBean implements Serializable {
 ```
 
 **Using in JSP:**
-
-jsp
 
 ```jsp
 <!-- Instantiate bean -->
@@ -1075,8 +1030,6 @@ jsp
 
 **Action Class:**
 
-java
-
 ```java
 public class LoginAction extends Action {
     public ActionForward execute(ActionMapping mapping,
@@ -1094,8 +1047,6 @@ public class LoginAction extends Action {
 ```
 
 **ActionForm:**
-
-java
 
 ```java
 public class LoginForm extends ActionForm {
@@ -1116,8 +1067,6 @@ public class LoginForm extends ActionForm {
 ```
 
 **struts-config.xml:**
-
-xml
 
 ```xml
 <struts-config>
@@ -1276,8 +1225,6 @@ xml
 
 **RDF Example:**
 
-xml
-
 ```xml
 <rdf:Description rdf:about="http://example.org/person/john">
     <foaf:name>John Doe</foaf:name>
@@ -1287,8 +1234,6 @@ xml
 ```
 
 **SPARQL Query:**
-
-sparql
 
 ```sparql
 SELECT ?name ?email

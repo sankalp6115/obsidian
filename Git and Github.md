@@ -1,17 +1,9 @@
-mkdir ~/.git-templates && cd ~/.git-templates
-.git-templates % touch .gitignore
-.git-templates % nano .gitignore
-.git-templates % git config --global init.templateDir ~/.git-templates
-
-##### This would tell git to use the gitignore file you defined in .git-templates folder, every time you hit git init this gitignore will be made.
-
 Whiteboard Notes
 https://app.eraser.io/workspace/P96VaUsW5o0FXVOTDzHY
 https://app.eraser.io/workspace/ZNCxQWeQZlJ3BD4Fle26
 
 Cheat Sheet
 https://education.github.com/git-cheat-sheet-education.pdf
-
 
 Clean commit should be done, not too much code pushed at the same time.
 ### Commands
@@ -30,11 +22,9 @@ diff
 blame \<file-name\>
 shows detailed overview of which line in the file was added when and in which commit by whom
 
-
 revert  \<commit-id\>
 What this does is, what code we did in the  \<commit-id\> , it makes a inverted code of that, 
 if code was added it removes that, if code was removed it again writes it, makes a new commit and points the head towards it
-
 
 reset \<commit-id\>
 reset --hard \<commit-id\>
@@ -89,15 +79,11 @@ But allows to revert to specific commit of the branch.
 
 (Only used in special cases , mainly merge is used.)
 
-
 git pull
 ### Staging Area
 An imaginary area where files references are kept after they are added but not commited.
-
-
 ### SSH Key auth
 ### Contributor Invitation
-
 ### Branching
 Very essential feature
 ![](Assets/Pasted%20image%2020260623020621.png)
@@ -117,3 +103,20 @@ git stash apply
 git stash pop
 
 works in stack format
+
+
+### .gitignore automation
+mkdir ~/.git-templates && cd ~/.git-templates
+.git-templates % touch .gitignore
+.git-templates % nano .gitignore
+.git-templates % git config --global init.templateDir ~/.git-templates
+
+##### This would tell git to use the gitignore file you defined in .git-templates folder, every time you hit git init this gitignore will be made.
+
+
+### Some working
+https://www.youtube.com/watch?v=Csd4lMKPC5g
+This video highlights how git works underneath.
+Very awesome
+
+![](Assets/Pasted%20image%2020260709192720.png)

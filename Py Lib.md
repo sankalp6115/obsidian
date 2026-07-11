@@ -92,7 +92,3 @@ Python has a vibrant ecosystem of libraries for various tasks. Here are some awe
 - [turtle](https://docs.python.org/3/library/turtle.html): Drawing and educational purposes.
 - [pyfiglet](https://github.com/pwaller/pyfiglet): ASCII art generation.
 - [rich](https://rich.readthedocs.io/): Beautiful CLI formatting.
-
-Which category interests you most? Let me know, and I can dive deeper into recommendations!
-
-From < [https://chatgpt.com/c/676a8753-fd88-8009-b99d-77a7ebea3044](https://chatgpt.com/c/676a8753-fd88-8009-b99d-77a7ebea3044)>

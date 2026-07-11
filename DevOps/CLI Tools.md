@@ -1,0 +1,4 @@
+fzf
+zoxide
+cowsay
+fortune

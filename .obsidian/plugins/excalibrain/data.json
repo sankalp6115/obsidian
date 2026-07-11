@@ -1,6 +1,6 @@
 {
-  "compactView": false,
-  "compactingFactor": 1.5,
+  "compactView": true,
+  "compactingFactor": 1.2,
   "minLinkLength": 18,
   "excalibrainFilepath": "excalibrain.md",
   "indexUpdateInterval": 5000,
@@ -230,7 +230,12 @@
     "Next": {}
   },
   "navigationHistory": [
-    "DevOps/Jellyfin Installation Problems and Fixes.md"
+    "DevOps/Jellyfin Installation Problems and Fixes.md",
+    "Javascript/CSS Page-transition.md",
+    "Javascript/HTML Notes.md",
+    "Excalidraw/ExcaliBrain Snapshot - CSS Reference Screenshots.excalidraw.md",
+    "Javascript/CSS Reference Screenshots.pdf",
+    "FastAPI.md"
   ],
   "allowOntologySuggester": true,
   "ontologySuggesterParentTrigger": "::p",
