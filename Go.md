@@ -151,3 +151,6 @@ Examples of languages that compile themselves:
 ## Projects
 https://chatgpt.com/c/69b83de7-d978-8322-8986-1a9fb85cb1bb?mweb_fallback=1
 https://chatgpt.com/share/6a3fed57-cfe4-83ee-846f-c00b286b17fc
+
+
+### Basic Syntax

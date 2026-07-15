@@ -33,6 +33,7 @@
     - Decorators with arguments
     - Stacking decorators
     - Practical decorator patterns used in FastAPI
+    - ✅
 - **Async/Await & Concurrency (4 hrs theory + practice)**
     
     - Event loops and asyncio

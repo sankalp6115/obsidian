@@ -9,6 +9,7 @@ Jellyfin / Plex / Emby
 
 
 
+
 ### Gotta Explore
 Nginx Proxy Manager
 Homepage / Heimdall / Homarr
