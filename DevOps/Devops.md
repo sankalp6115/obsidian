@@ -4,12 +4,7 @@
 
 *   **DevOps Engineer:** Builds and maintains this bridge using automation to deploy software quickly, safely, and reliably.
 
-  
-
 ---
-
-  
-
 ### **1. Old Way vs. The DevOps Solution**
 
 *   **The Old Way ("Wall of Confusion"):** 

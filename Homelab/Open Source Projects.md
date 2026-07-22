@@ -13,7 +13,6 @@ Logseq
 Dendron
 Joplin 
 Super Productivity
-- Jellyfin 
 Nora 
 Ardour + LMMS
 f.lux

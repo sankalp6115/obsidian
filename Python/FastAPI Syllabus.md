@@ -1,9 +1,7 @@
 # FastAPI Mastery Syllabus (10-12 Weeks)
 
 **Your Profile:** Intermediate Python | API Basics Known | 20-30 hrs/week | Balanced Learning
-
 **Goal:** Production-ready FastAPI expertise with deep understanding
-
 ---
 
 ## 📊 Timeline Overview

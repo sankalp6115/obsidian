@@ -16,7 +16,7 @@ Websocket me first request from client to server is an http.
 
 Handshake complete -> Websocket Established.
 
-Used for fetching data in real-time, used in chatting apps, trading apps etc.
+Used for fetching data in real-time, used in chatting apps, trading apps, our own paper_boy etc.
 
 For using and exchanging data using websocket, start the server by navigating to the server directory in cmd, and start using node server.js
 

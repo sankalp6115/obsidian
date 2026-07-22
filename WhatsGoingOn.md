@@ -5,7 +5,6 @@
 - DL (Vacation)
 - Sure Fullstack (Vacation) 
 - Homelabbing (Deep exploration) 
-- Docker (For deployment) (Vacation)
 - Create resume and portfolio (high priority)
 
 ### Skills To Explore
@@ -35,6 +34,8 @@
 - FastAPI
 - Tensorflow/SKLearn/Pandas/Numpy/MPLib/Plotly/Seaborn
 - Proficient working with VMs and Linux
+- Docker
+- 
 
 ### Smaller Skills
 - SSH Jumping, Cron
