@@ -1,4 +1,8 @@
 - Syncthing - Folder syncing 
+- rclone
+- googleworkspace-cli
+- https://terminal-apps.dev/
+
 KDE Connect - Devices connection
 Remote Access Apps
 Zotero + Jab Ref - Research Companion

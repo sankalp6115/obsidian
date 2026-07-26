@@ -1,3 +1,7 @@
+https://selfh.st/apps/
+https://community-scripts.org/
+https://terminal-apps.dev/
+
 ### Explored but yet to implement
 AdGuard Home
 Uptime Kuma
@@ -6,7 +10,7 @@ Prometheus
 Grafana
 OpenMediaVault
 Jellyfin / Plex / Emby
-
+URL Shortener
 
 
 

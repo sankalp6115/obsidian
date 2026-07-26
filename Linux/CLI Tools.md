@@ -2,3 +2,8 @@ fzf
 zoxide
 cowsay
 fortune
+ripgrep
+eza
+jq
+curl
+watch
