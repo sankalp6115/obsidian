@@ -208,3 +208,4 @@ neofetch
 fastfetch
 fortune
 cava
+

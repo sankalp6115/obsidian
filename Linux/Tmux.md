@@ -740,12 +740,10 @@ tmux attach || tmux new -s main
 ```
 
 **If Wi-Fi disconnects:**
-
 1. Reconnect to Wi-Fi
 2. SSH to server again
 3. `tmux attach`
 4. Everything is exactly where you left it!
-
 ### Multi-Server Management
 
 Enable pane synchronization to run commands on multiple servers:

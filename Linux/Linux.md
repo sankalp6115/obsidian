@@ -123,4 +123,27 @@ chmod 755 file.sh - Owner : rwx & Others : rx
 chmod 644 file.txt - Owner : rw & Others : r
 chmod 600 private.txt - Only owner can read and write
 
- 
+### Linux Pipelines
+`set -euo pipefail`
+
+This combines all three.
+
+```
+set -euo pipefail
+```
+
+means
+
+- `-e` → Exit on command failure.
+- `-u` → Error on undefined variables.
+- `-o pipefail` → Pipelines fail if **any** command fails.
+
+This is the most common header you'll see in professional Bash scripts
+
+
+### Default Variable usage
+
+```
+${VAR:-default}
+```
+"If `VAR` is unset or empty, use `default` instead."
