@@ -2,6 +2,8 @@
 Feature-intensive self hosted music player.
 #### File-Server (Basic NAS)
 Remote file storage system with media player functionality.
+Miniserve
+dufs
 #### Homelab-monitor
 UI to monitor activity of devices of the lab, to be replaced by galnces in future.
 #### YT-Downloader
@@ -14,7 +16,6 @@ Sample app to saving ideas quickly in a textbox.
 Gives random quotes. Thats all.
 #### AdGuardHome
 Adblocker self hosted
-
 
 ### More ideas
 [[Homelab Ideas to GO]]

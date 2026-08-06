@@ -6,14 +6,14 @@
 
 ## 📊 Timeline Overview
 
-|Phase|Duration|Hours/Week|Focus|
-|---|---|---|---|
-|**Phase 1: Foundations**|Weeks 1-2|20-25 hrs|Decorators, Async/Await, FastAPI Basics|
-|**Phase 2: Core API Development**|Weeks 3-4|25-28 hrs|Routing, Request/Response, Validation|
-|**Phase 3: Database & Data**|Weeks 5-6|25-28 hrs|SQLAlchemy, SQLModel, Database Patterns|
-|**Phase 4: Authentication & Security**|Weeks 7-8|25-28 hrs|JWT, OAuth2, Security Best Practices|
-|**Phase 5: Advanced Features**|Weeks 9-10|25-28 hrs|WebSockets, Background Tasks, Streaming|
-|**Phase 6: Production & Deployment**|Weeks 11-12|20-25 hrs|Testing, Monitoring, Docker, Deployment|
+| Phase                                  | Duration    | Hours/Week | Focus                                   |
+| -------------------------------------- | ----------- | ---------- | --------------------------------------- |
+| **Phase 1: Foundations**               | Weeks 1-2   | 20-25 hrs  | Decorators, Async/Await, FastAPI Basics |
+| **Phase 2: Core API Development**      | Weeks 3-4   | 25-28 hrs  | Routing, Request/Response, Validation   |
+| **Phase 3: Database & Data**           | Weeks 5-6   | 25-28 hrs  | SQLAlchemy, SQLModel, Database Patterns |
+| **Phase 4: Authentication & Security** | Weeks 7-8   | 25-28 hrs  | JWT, OAuth2, Security Best Practices    |
+| **Phase 5: Advanced Features**         | Weeks 9-10  | 25-28 hrs  | WebSockets, Background Tasks, Streaming |
+| **Phase 6: Production & Deployment**   | Weeks 11-12 | 20-25 hrs  | Testing, Monitoring, Docker, Deployment |
 
 **Total Time Investment:** 140-165 hours
 

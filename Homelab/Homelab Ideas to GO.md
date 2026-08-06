@@ -16,9 +16,9 @@ URL Shortener
 
 ### Gotta Explore
 Nginx Proxy Manager
-Homepage / Heimdall / Homarr
+Homepage
 Portainer
-Proxmox VE.
+Proxmox VE
 Dokploy - open-source alt to netlify, vercel, can install on machine to deploy apps like in vercel 
 Rustdesk
 

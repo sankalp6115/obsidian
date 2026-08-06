@@ -1,3 +1,19 @@
+---
+title: Fastapi week 2
+slug: fastapi-week-2
+tags:
+  - python
+  - fastapi
+publish: "true"
+style: default
+created: 29/07/2026
+updated: 31/07/2026
+ver: v1
+thumbnail: default
+description: Detailed fastapi walkthrough for week 2
+author_id: "1234"
+---
+
 **Duration:** 12-13 hours  
 **Learning Style:** Theory-first approach with formal definitions, then code examples  
 **Prerequisites:** Week 1 (Decorators, Async/Await, Type Hints)  

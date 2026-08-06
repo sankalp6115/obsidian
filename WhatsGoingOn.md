@@ -11,9 +11,7 @@
 - Vue
 - C/C++
 - VR,AR
-- DevOps
 - Cloud Engineering
-- CSS Preprocessors
 - UI/UX Design
 - SVG Animations
 - RegEX
@@ -35,17 +33,13 @@
 - Tensorflow/SKLearn/Pandas/Numpy/MPLib/Plotly/Seaborn
 - Proficient working with VMs and Linux
 - Docker
-- 
 
 ### Smaller Skills
-- SSH Jumping, Cron
+- SSH Jumping, Cronjob
 - FastAPI services
-- a file server
-- a music player
 - monitoring
 - bootstrap scripts
 - Tailscale networking
-- SSH automation
 - tmux orchestration
 - gh actions
 
@@ -57,7 +51,6 @@ Kubernetes
 DL
 Agentic AI
 RL
-
 
 ### Certificates
 - GDSC Orientation and Mini Hackathon
@@ -87,9 +80,10 @@ RL
 Did webpage testing for HAWC R&D in internship
 
 ### Achievements
+- Flipkart Grid 8.0 Round 1 cleared
 - Among top 1.4% in engineering (JEE Main)
-- LeetCode 300+
+- LeetCode 350+
 - Leetcode (1500+ rated)
 - CP (Codechef 1000+ rating)
-- Total 500+
+- Total 600+
 ### Academic Books Read
