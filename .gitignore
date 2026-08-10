@@ -1,13 +1,11 @@
 .smart-env
-.obsidian/*
-
-!.obsidian/app.json
-!.obsidian/appearance.json
-!.obsidian/community-plugins.json
-!.obsidian/core-plugins.json
-!.obsidian/hotkeys.json
-
-!.obsidian/plugins/
+.obsidian
+.smart-env/
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/plugins/
+.obsidian/themes/
 
 .trash/
 .DS_Store
+
