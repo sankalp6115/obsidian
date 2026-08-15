@@ -5,7 +5,6 @@
 - DL (Vacation)
 - Sure Fullstack (Vacation) 
 - Homelabbing (Deep exploration) 
-- Create resume and portfolio (high priority)
 
 ### Skills To Explore
 - Vue
@@ -43,7 +42,7 @@
 - tmux orchestration
 - gh actions
 
-### Things i am aware about
+### Things I am aware about
 Prometheus
 Grafana
 Devops
@@ -67,14 +66,13 @@ RL
 - Research Paper Classifier KDSH 2025
 - MNIST Draw
 - Malaria Classifier
-- Python Directory Mgmt Library (directorymap) 
 - Mechatron
 - Sound Sentinel (CNN)
 - Snap Sentinel
 - JS-Packages
 - Directorymap
 - Homelab - [[Homelabbing-Tracker]]
-
+- Termux Bootstrap
 
 ### Experience
 Did webpage testing for HAWC R&D in internship

@@ -16,6 +16,8 @@ Sample app to saving ideas quickly in a textbox.
 Gives random quotes. Thats all.
 #### AdGuardHome
 Adblocker self hosted
+#### Gotify
+Notification system, monitoring, server status
 
 ### More ideas
 [[Homelab Ideas to GO]]

@@ -12,7 +12,7 @@ OpenMediaVault
 Jellyfin / Plex / Emby
 URL Shortener
 
-
+Apprise for notificartion
 
 ### Gotta Explore
 Nginx Proxy Manager
