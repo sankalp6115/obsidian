@@ -1141,7 +1141,7 @@ def create():
 
 ### Why Pydantic Matters
 
-```
+```python
 Without Pydantic (Manual Validation):
 ────────────────────────────────────
 def create_user(data):

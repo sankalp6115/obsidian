@@ -1,19 +1,11 @@
-### To be done in upcoming time:
-- Intern (High priority)
-- GATE (Low priority)
-- GSoC
-- DL (Vacation)
-- Sure Fullstack (Vacation) 
-- Homelabbing (Deep exploration) 
-
 ### Skills To Explore
-- Vue
 - C/C++
 - VR,AR
 - Cloud Engineering
 - UI/UX Design
 - SVG Animations
 - RegEX
+- DevOps
 
 ### Skills
 - HTML,CSS,JS
