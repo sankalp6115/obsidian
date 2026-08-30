@@ -18,6 +18,9 @@ Gives random quotes. Thats all.
 Adblocker self hosted
 #### Gotify
 Notification system, monitoring, server status
+Normally installing it wont work, 
+Build the UI in pc, transfer to repo, and build the app then using go build command
+Gotta get the source and build it from there (easy)
 
 ### More ideas
 [[Homelab Ideas to GO]]

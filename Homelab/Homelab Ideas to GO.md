@@ -11,7 +11,7 @@ Grafana
 OpenMediaVault
 Jellyfin / Plex / Emby
 URL Shortener
-
+Grafana Cloud
 Apprise for notificartion
 
 ### Gotta Explore

@@ -6,6 +6,10 @@
 - SVG Animations
 - RegEX
 - DevOps
+- LXC
+- Light container / lightweight ways to deploy
+- Podman vs Docker
+
 
 ### Skills
 - HTML,CSS,JS
@@ -65,15 +69,17 @@ RL
 - Directorymap
 - Homelab - [[Homelabbing-Tracker]]
 - Termux Bootstrap
+- Screenshot Analyser and Clusterer
 
 ### Experience
 Did webpage testing for HAWC R&D in internship
 
 ### Achievements
-- Flipkart Grid 8.0 Round 1 cleared
+- Flipkart Grid 8.0 Round 1 cleared (Useless)
+- Adobe round 1 cleared (Useless)
 - Among top 1.4% in engineering (JEE Main)
-- LeetCode 350+
+- LeetCode 400+
 - Leetcode (1500+ rated)
-- CP (Codechef 1000+ rating)
-- Total 600+
+- CP (Codechef 1300+ rating)
+- Total 700+
 ### Academic Books Read
