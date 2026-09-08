@@ -1,7 +1,7 @@
 more fundamental focused (can go into deep knowledge)
 less dsa based, easy dsa asked
-aptitude level not too hard but lengthy
-indiabix aptitude
+! aptitude level not too hard but lengthy
+! indiabix aptitude
 
 for final year:
 aptitude -> dsa -> 

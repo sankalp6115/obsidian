@@ -694,7 +694,7 @@ async def upload_and_process(file: UploadFile = File(...)):
 from fastapi import File, UploadFile
 from typing import List
 
-app = FastAPI()
+	app = FastAPI()
 
 # Multiple files
 @app.post("/upload-multiple/")
