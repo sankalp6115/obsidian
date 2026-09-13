@@ -28,6 +28,9 @@
 - Tensorflow/SKLearn/Pandas/Numpy/MPLib/Plotly/Seaborn
 - Proficient working with VMs and Linux
 - Docker
+- Complete ML
+- Basic DL
+- 
 
 ### Smaller Skills
 - SSH Jumping, Cronjob
@@ -40,7 +43,10 @@
 
 ### Things I am aware about
 Prometheus
-Grafana
+Grafana 
+Monitoring Stack
+Glances
+
 Devops
 Kubernetes
 DL

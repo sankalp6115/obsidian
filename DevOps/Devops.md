@@ -70,3 +70,5 @@
 *   **F1 Analogy:** Developer = Driver (wants speed); Ops = Pit Crew (wants safety); **DevOps Engineer** = Designer of the automated pit-stop tools (enables maximum speed with zero errors).
 
 *   **Ultimate Goal:** Create a system where a developer can write code, hit "Enter," and have it safely and automatically live for millions of users in minutes. 
+
+![](../Assets/Pasted%20image%2020260909002744.png)
