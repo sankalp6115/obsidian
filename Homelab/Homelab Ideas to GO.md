@@ -13,6 +13,7 @@ Jellyfin / Plex / Emby
 URL Shortener
 Grafana Cloud
 Apprise for notificartion
+Netbird
 
 ### Gotta Explore
 Nginx Proxy Manager

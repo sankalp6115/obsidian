@@ -1,15 +1,15 @@
 Astha Gupta -> IT Team (Petroleum Engg)
-![](../Assets/Pasted%20image%2020260826160609.png)
+![](Pasted%20image%2020260826160609.png)
 
-![](../Assets/Pasted%20image%2020260826160846.png)
+![](Pasted%20image%2020260826160846.png)
 
 RockoFellar
 Arneet Singh
 
-![](../Assets/Pasted%20image%2020260826161625.png)![](../Assets/Pasted%20image%2020260826161850.png)![](../Assets/Pasted%20image%2020260826161930.png)![](../Assets/Pasted%20image%2020260826162139.png)![](../Assets/Pasted%20image%2020260826162142.png)![](../Assets/Pasted%20image%2020260826162243.png)![](../Assets/Pasted%20image%2020260826162343.png)![](../Assets/Pasted%20image%2020260826162431.png)![](../Assets/Pasted%20image%2020260826163148.png)![](../Assets/Pasted%20image%2020260826162539.png)![](../Assets/Pasted%20image%2020260826162849.png)![](../Assets/Pasted%20image%2020260826162917.png)![](../Assets/Pasted%20image%2020260826163103.png)![](../Assets/Pasted%20image%2020260826163220.png)Been in india for more than 100 years
+![](Pasted%20image%2020260826161625.png)![](Pasted%20image%2020260826161850.png)![](Pasted%20image%2020260826161930.png)![](Pasted%20image%2020260826162139.png)![](Pasted%20image%2020260826162142.png)![](Pasted%20image%2020260826162243.png)![](Pasted%20image%2020260826162343.png)![](Pasted%20image%2020260826162431.png)![](Pasted%20image%2020260826163148.png)![](Pasted%20image%2020260826162539.png)![](Pasted%20image%2020260826162849.png)![](Pasted%20image%2020260826162917.png)![](Pasted%20image%2020260826163103.png)![](Pasted%20image%2020260826163220.png)Been in india for more than 100 years
 SO -> HPCL
 IT -> bangalore
-![](../Assets/Pasted%20image%2020260826163639.png)![](../Assets/Pasted%20image%2020260826163714.png)![](../Assets/Pasted%20image%2020260826163741.png)
+![](Pasted%20image%2020260826163639.png)![](Pasted%20image%2020260826163714.png)![](Pasted%20image%2020260826163741.png)
 
 Most valued other than IT: adaptable, teamwork
 how have you made the exployee excellent: 

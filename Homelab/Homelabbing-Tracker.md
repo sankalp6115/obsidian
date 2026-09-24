@@ -29,7 +29,7 @@ Gotta get the source and build it from there (easy)
 [[Open Source Projects]]
 
 ### Server Practices
-[[../DevOps/Server Practices]]
+[[Server Practices]]
 
 Todo
 [Open Task List](ms-to-do:)

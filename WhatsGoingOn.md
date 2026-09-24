@@ -30,7 +30,7 @@
 - Docker
 - Complete ML
 - Basic DL
-- 
+- Applescript / osascript
 
 ### Smaller Skills
 - SSH Jumping, Cronjob
@@ -49,11 +49,12 @@ Glances
 
 Devops
 Kubernetes
-DL
 Agentic AI
 RL
 
 ### Certificates
+- Adobe Participation 2nd round
+- Flipkart grid 8.0 participation
 - GDSC Orientation and Mini Hackathon
 - KDSH Participation
 - Taekwondo Championship
@@ -76,6 +77,8 @@ RL
 - Homelab - [[Homelabbing-Tracker]]
 - Termux Bootstrap
 - Screenshot Analyser and Clusterer
+- Streamdeck to control mac
+- 
 
 ### Experience
 Did webpage testing for HAWC R&D in internship

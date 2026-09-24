@@ -1,9 +1,3 @@
-![](Assets/Pasted%20image%2020260829124455.png)
-
-# Complete Notes: Mastering Object-Oriented Programming in Java
-
----
-
 ## 1. Objects & Object-Oriented Programming in Java (OOPS Tutorial)
 
 _Source Video: "Objects Oriented Programming In Java - OOPS in Java Complete Tutorial"_
