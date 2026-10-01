@@ -22,6 +22,10 @@ Normally installing it wont work,
 Build the UI in pc, transfer to repo, and build the app then using go build command
 Gotta get the source and build it from there (easy)
 
+#### StreamDeck MacDeck
+Physical button feeling that controls your laptop while being easy to use and easy to extend.
+
+
 ### More ideas
 [[Homelab Ideas to GO]]
 
