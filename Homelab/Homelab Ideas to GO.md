@@ -37,17 +37,12 @@ Ollama + Open WebUI: A powerful combo to run large language models (like Llama, 
 
 Gluetun: A lightweight VPN client for Docker containers[](https://therobbiedavis.com/my-top-10-favorite-self-hosted-apps/#/portal/#/portal/signin). It's the clean way to route specific apps (like torrent clients) through a VPN without setting up a full VM. (More and more popular for privacy-focused setups)
 
-[Changedetection.io](https://changedetection.io/): A tool that monitors any webpage and sends you a notification the moment it changes, useful for tracking product restocks or news updates[](https://github.com/upioneer/homelab).
-
 Tinyauth: An ultra-simple authentication middleware for those who want basic protection without the complexity of Authentik[](https://selfh.st/post/2025-favorite-new-apps-so-far/?ref=dailydev).
 
 LoggiFly: A lightweight service that monitors your logs and generates notifications based on specific patterns, a great, simpler alternative to heavy monitoring tools[](https://selfh.st/post/2025-favorite-new-apps-so-far/?ref=dailydev).
 
 Navidrome
-Twingate, Cloudflare Tunnels
 Selfhost a VPN Server (pfsense)
-Reverse tunnel (Remove dependency on changing ip)
-Grafana And Prometheus for Data Collection and Monitoring
 Proxmox server
 
 ### 📚 Best Resources for the Deep Dive

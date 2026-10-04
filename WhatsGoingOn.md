@@ -6,9 +6,13 @@
 - SVG Animations
 - RegEX
 - DevOps
+- ArgoCD
+- CI/CD
+- Jenkins
+- Networking
+- AWS / Some cloud
 - LXC
 - Light container / lightweight ways to deploy
-- Podman vs Docker
 
 
 ### Skills
@@ -27,10 +31,12 @@
 - FastAPI
 - Tensorflow/SKLearn/Pandas/Numpy/MPLib/Plotly/Seaborn
 - Proficient working with VMs and Linux
-- Docker
+- Docker / Podman
 - Complete ML
 - Basic DL
-- Applescript / osascript
+- Backend from First Principles (Sriniously)
+- Bash Script
+- Bash Automations
 
 ### Smaller Skills
 - SSH Jumping, Cronjob
@@ -40,6 +46,8 @@
 - Tailscale networking
 - tmux orchestration
 - gh actions
+- Applescript / osascript
+- Server Management
 
 ### Things I am aware about
 Prometheus
@@ -47,7 +55,6 @@ Grafana
 Monitoring Stack
 Glances
 
-Devops
 Kubernetes
 Agentic AI
 RL
@@ -77,7 +84,7 @@ RL
 - Homelab - [[Homelabbing-Tracker]]
 - Termux Bootstrap
 - Screenshot Analyser and Clusterer
-- Streamdeck to control mac
+- Streamdeck to control mac applescript
 - 
 
 ### Experience

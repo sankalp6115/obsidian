@@ -12,3 +12,6 @@ https://playground.tensorflow.org/
 
 Meleys AI
 https://meleys.ai/
+
+https://www.youtube.com/playlist?list=PLlfy9GnSVerQjeoYfoYKEMS1yKl89NOvL
+DevOps
