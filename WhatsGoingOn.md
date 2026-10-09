@@ -1,5 +1,6 @@
 ### To Explore/Study
 - Domains - 
+	- Rate Limiting
 	- System Design
 	- Networking
 	- CI/CD
@@ -9,8 +10,11 @@
 	- AWS / Some cloud
 	- Light container / lightweight ways to deploy
 	- LXC
+	- Proxmox VE
+	- Docker containerize apps
 - Discrete Topics - 
 	- Trie
+	- Wolf fencing concept to find out problem in system with many interconnected components
 	- Back of Envelope
 	- Consistent Hashing
 	- Quorum
@@ -34,6 +38,10 @@
 ### Some topics to study
 - 
 
+### Running
+- Backend from first principles
+- Dynamic Programming
+
 ### Discrete Topics Known
 - Bloom Filter
 - DSA - 
@@ -47,7 +55,6 @@
 	- RBTree
 	- B-Tree
 	- Graph
-	- DP
 - SSH - 
 	- SSHing 
 	- Key Auth
@@ -55,7 +62,8 @@
 	- Jumping
 	- RootLogin Enable/Disable
 - Cronjobs
-- 
+- Backend Engg - 
+	- Message Queues
 
 
 ### Skills
@@ -90,12 +98,15 @@
 	- Github
 - Database - 
 	- MySQL
+	- DBMate Migrations
+	- PostgreSQL
 - Backend - 
 	- Backend from First Principles (Sriniously)
 	- FastAPI
 	- FastAPI services
 	- Express
 	- Go
+	- SQLAlchemy
 - Runtime / Package Managers - 
 	- Node
 	- uv
