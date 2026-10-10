@@ -1,6 +1,5 @@
 ### To Explore/Study
 - Domains - 
-	- Rate Limiting
 	- System Design
 	- Networking
 	- CI/CD
@@ -14,12 +13,15 @@
 	- Docker containerize apps
 - Discrete Topics - 
 	- Trie
-	- Wolf fencing concept to find out problem in system with many interconnected components
-	- Back of Envelope
+	- HyperLogLog
 	- Consistent Hashing
 	- Quorum
 	- Leader and Follower
 	- Write-ahead Log
+	- LSM Trees
+	- CPU Caches and Cache Locality
+	- TCP Handshake and Connection Teardown
+	- Cache Invalidation Strategies
 	- Segmented Log
 	- High-Water mark
 	- Lease
@@ -35,15 +37,42 @@
 	- Hinted Handoff
 	- Read Repair
 	- Merkle Trees
-### Some topics to study
-- 
+	- Skip Lists
+	- Monotonic Stacks
+	- Disjoint Set Union
+	- Reservoir Sampling
+	- Idempotency
+	- Circuit Breakers
+	- Exponential Backoff + Jitter
+	- Rate Limiting: Token Bucket
+	- Recover database state after crashes.
+	- File Descriptors
+	- Virtual Memory and Page Faults
+	- Processes vs Threads
+	- DNS Resolution
+	- Unix Pipes and Signals
+	- TLS Handshake
+	- JWT vs Sessions
+	- CORS
+	- SQL Injection and Prepared Statements
+	- Password Hashing: Argon2 and bcrypt
+	- MVCC
+	- Database Indexes and B+ Trees
+	- Vector Clocks
+	- Raft Consensus: The Big Picture
+	- Eventual Consistency
+	- Understand why replicas can temporarily disagree.
 
+	
 ### Running
 - Backend from first principles
 - Dynamic Programming
 
 ### Discrete Topics Known
-- Bloom Filter
+- System Design -
+	- Bloom Filter
+	- Back of Envelope Estimation
+	- Wolf fencing concept to find out problem in system with many interconnected components
 - DSA - 
 	- Arrays
 	- Linked List
@@ -63,7 +92,12 @@
 	- RootLogin Enable/Disable
 - Cronjobs
 - Backend Engg - 
+	- API Standards
+	- DB Design
 	- Message Queues
+	- HTTP (Stateless / Stateful Arch)
+	- Auth n Auth + Validation n Transformations
+	- Controller, Service, Middleware, Request Context
 
 
 ### Skills
@@ -81,16 +115,16 @@
 	- Python
 	- Java
 	- JS
+	- Basic Go
 - DevOps - 
 	- Docker / Podman
 	- Proficient working with VMs and Linux
+	- Linux Fluency
 	- Bash Script
-	- Bash Automations
-	- monitoring
-	- bootstrap scripts
+	- Monitoring Basics
+	- Bootstrap scripts
 	- tmux orchestration
 	- gh actions
-	- server management remote or connected
 - Core - 
 	- 
 - VCS - 
@@ -98,8 +132,9 @@
 	- Github
 - Database - 
 	- MySQL
-	- DBMate Migrations
 	- PostgreSQL
+	- SQLite
+	- DBMate Migrations
 - Backend - 
 	- Backend from First Principles (Sriniously)
 	- FastAPI
@@ -115,7 +150,7 @@
 	- Java
 	- Python
 - Machine Learning -
-	- Complete ML
+	- Complete core ML
 	- ML Algorithms
 	- Data Handling
 	- Preprocessing
