@@ -12,8 +12,8 @@
 	- Proxmox VE
 	- Docker containerize apps
 - Discrete Topics - 
+	- DB Group Commit - for a lot of http requests, they are saved in queue, made a batch, then less no of sql queries is done for the whole batch, instead of running query for every single request
 	- Trie
-	- HyperLogLog
 	- Consistent Hashing
 	- Quorum
 	- Leader and Follower
@@ -25,7 +25,7 @@
 	- Segmented Log
 	- High-Water mark
 	- Lease
-	- Heartbeat
+	- 
 	- Gossip Protocol
 	- Phi Accrual Failure Detection
 	- Split-brain
@@ -62,8 +62,6 @@
 	- Raft Consensus: The Big Picture
 	- Eventual Consistency
 	- Understand why replicas can temporarily disagree.
-
-	
 ### Running
 - Backend from first principles
 - Dynamic Programming
@@ -72,7 +70,9 @@
 - System Design -
 	- Bloom Filter
 	- Back of Envelope Estimation
-	- Wolf fencing concept to find out problem in system with many interconnected components
+	- Wolf fencing concept ,find problem in interconnected node system (kinda Binary Search)
+	- HyperLogLog (Proabilistic method of counting)
+	- Heartbeat
 - DSA - 
 	- Arrays
 	- Linked List
@@ -84,6 +84,7 @@
 	- RBTree
 	- B-Tree
 	- Graph
+	- Trie
 - SSH - 
 	- SSHing 
 	- Key Auth
