@@ -9,3 +9,6 @@ https://thangs.com/
 https://www.chosic.com/
 
 Remotion library - generate video using js
+
+https://portswigger.net/web-security
+https://owasp.org/projects/top-ten

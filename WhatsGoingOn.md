@@ -1,5 +1,6 @@
 ### To Explore/Study
 - Domains - 
+	- Ansible
 	- System Design
 	- Networking
 	- CI/CD
@@ -12,6 +13,7 @@
 	- Proxmox VE
 	- Docker containerize apps
 - Discrete Topics - 
+	- Rainbow Table Attack vs Dictionary Attack
 	- DB Group Commit - for a lot of http requests, they are saved in queue, made a batch, then less no of sql queries is done for the whole batch, instead of running query for every single request
 	- Trie
 	- Consistent Hashing
@@ -68,11 +70,13 @@
 
 ### Discrete Topics Known
 - System Design -
+	- Circuit Breaker
 	- Bloom Filter
 	- Back of Envelope Estimation
 	- Wolf fencing concept ,find problem in interconnected node system (kinda Binary Search)
 	- HyperLogLog (Proabilistic method of counting)
 	- Heartbeat
+	- Message Queues
 - DSA - 
 	- Arrays
 	- Linked List
@@ -95,7 +99,6 @@
 - Backend Engg - 
 	- API Standards
 	- DB Design
-	- Message Queues
 	- HTTP (Stateless / Stateful Arch)
 	- Auth n Auth + Validation n Transformations
 	- Controller, Service, Middleware, Request Context

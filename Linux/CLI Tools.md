@@ -1,5 +1,6 @@
 fzf
 zoxide
+
 cowsay
 fortune
 ripgrep

@@ -25,6 +25,11 @@ Gotta get the source and build it from there (easy)
 #### StreamDeck MacDeck
 Physical button feeling that controls your laptop while being easy to use and easy to extend.
 
+### Docker
+Downtify
+Portainer
+Gotify
+Uptime-Kuma
 
 ### More ideas
 [[Homelab Ideas to GO]]

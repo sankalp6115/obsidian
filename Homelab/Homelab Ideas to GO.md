@@ -2,9 +2,16 @@ https://selfh.st/apps/
 https://community-scripts.org/
 https://terminal-apps.dev/
 
+### Good
+Gotify
+Uptime Kuma
+Downtify https://github.com/henriquesebastiao/downtify
+
+### Seen (Not good)
+Nginx Proxy Manager (still problematic with lot of react apps due to routing)
+
 ### Explored but yet to implement
 AdGuard Home
-Uptime Kuma
 Glances
 Prometheus
 Grafana
@@ -12,11 +19,9 @@ OpenMediaVault
 Jellyfin / Plex / Emby
 URL Shortener
 Grafana Cloud
-Apprise for notificartion
 Netbird
 
 ### Gotta Explore
-Nginx Proxy Manager
 Homepage
 Portainer
 Proxmox VE

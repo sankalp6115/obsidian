@@ -1,5 +1,11 @@
 Python has a vibrant ecosystem of libraries for various tasks. Here are some awesome libraries across different domains:
 
+Faker
+Manim
+Diagrams
+Gradio
+Marimo
+
 1. Data Science and Machine Learning
 
 - [NumPy](https://numpy.org/): Numerical computing with powerful array operations.
