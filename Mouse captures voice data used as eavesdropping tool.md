@@ -1,0 +1,1 @@
+Mouse captures voice data used as eavesdropping tool

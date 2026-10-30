@@ -1,22 +1,22 @@
 ## Web Technology - Unit 4: Comprehensive Study Guide
 
-### **Part 1: Web Servers and Servlets**
+### Part 1: Web Servers and Servlets
 
 ---
-### **1. Tomcat Web Server**
+### 1. Tomcat Web Server
 
-#### **1.1 Introduction to Tomcat**
+#### 1.1 Introduction to Tomcat
 
-**Apache Tomcat** is an open-source web server and servlet container developed by the Apache Software Foundation. It implements several Java EE specifications including Java Servlet, JavaServer Pages (JSP), Java EL, and WebSocket.
+Apache Tomcat is an open-source web server and servlet container developed by the Apache Software Foundation. It implements several Java EE specifications including Java Servlet, JavaServer Pages (JSP), Java EL, and WebSocket.
 
 *(Java Enterprise Edition (Java EE), now officially known as Jakarta EE, is a set of specifications built on top of the Java Standard Edition (Java SE) designed for developing and running large-scale, multi-tiered, and secure network applications)*
-#### **Key Features:**
-- **Lightweight**: Compared to full Java EE application servers
-- **Open Source**: Free to use and modify
-- **Cross-platform**: Runs on Windows, Linux, macOS
-- **Standards Compliant**: Implements Java Servlet and JSP specifications
-- **Embeddable**: Can be embedded in Java applications
-#### **Architecture Components:**
+#### Key Features:
+- Lightweight: Compared to full Java EE application servers
+- Open Source: Free to use and modify
+- Cross-platform: Runs on Windows, Linux, macOS
+- Standards Compliant: Implements Java Servlet and JSP specifications
+- Embeddable: Can be embedded in Java applications
+#### Architecture Components:
 ```
 ┌─────────────────────────────────────┐
 │         Tomcat Server               │
@@ -33,7 +33,7 @@
 └─────────────────────────────────────┘
 ```
 
-#### **Directory Structure:**
+#### Directory Structure:
 
 ```
 TOMCAT_HOME/
@@ -49,8 +49,8 @@ TOMCAT_HOME/
 └── work/         # Compiled JSP files
 ```
 
-#### **Important Configuration Files:**
-**server.xml** - Main configuration file
+#### Important Configuration Files:
+server.xml - Main configuration file
 ```xml
 <Server port="8005" shutdown="SHUTDOWN">
   <Service name="Catalina">
@@ -64,7 +64,7 @@ TOMCAT_HOME/
   </Service>
 </Server>
 ```
-**web.xml** - Deployment descriptor for web applications
+web.xml - Deployment descriptor for web applications
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee" version="3.1">
@@ -80,12 +80,12 @@ TOMCAT_HOME/
 </web-app>
 ```
 
-### **2. Introduction to Servlets**
-#### **2.1 What is a Servlet?**
+### 2. Introduction to Servlets
+#### 2.1 What is a Servlet?
 
-A **Servlet** is a Java class that extends the capabilities of servers to host applications accessed via a request-response programming model. Servlets are primarily used to process or store data submitted by an HTML form, provide dynamic content, and manage state information.
+A Servlet is a Java class that extends the capabilities of servers to host applications accessed via a request-response programming model. Servlets are primarily used to process or store data submitted by an HTML form, provide dynamic content, and manage state information.
 
-#### **Key Characteristics:**
+#### Key Characteristics:
 
 - Server-side technology
 - Platform-independent
@@ -94,19 +94,19 @@ A **Servlet** is a Java class that extends the capabilities of servers to host a
 - Handles HTTP requests and responses
 - Thread-safe and scalable
 
-#### **Advantages of Servlets:**
+#### Advantages of Servlets:
 
-1. **Performance**: Better performance than CGI as servlets are loaded once and handle multiple requests
-2. **Portability**: Platform independent (Write Once, Run Anywhere)
-3. **Robustness**: JVM managed memory and exception handling
-4. **Extensibility**: Can be easily extended using Java inheritance
-5. **Security**: Java security features apply
+1. Performance: Better performance than CGI as servlets are loaded once and handle multiple requests
+2. Portability: Platform independent (Write Once, Run Anywhere)
+3. Robustness: JVM managed memory and exception handling
+4. Extensibility: Can be easily extended using Java inheritance
+5. Security: Java security features apply
 
 ---
 
-### **3. Lifecycle of a Servlet**
+### 3. Lifecycle of a Servlet
 
-The servlet lifecycle consists of **three main phases**:
+The servlet lifecycle consists of three main phases:
 
 ```
 ┌──────────────────────────────────────────┐
@@ -130,9 +130,9 @@ The servlet lifecycle consists of **three main phases**:
 └──────────────────────────────────────────┘
 ```
 
-#### **Detailed Lifecycle Methods:**
+#### Detailed Lifecycle Methods:
 
-##### **3.1 init() Method**
+##### 3.1 init() Method
 
 ```java
 public void init(ServletConfig config) throws ServletException {
@@ -143,12 +143,12 @@ public void init(ServletConfig config) throws ServletException {
 }
 ```
 
-**Purpose:**
+Purpose:
 - Initialize servlet configuration
 - Load initialization parameters
 - Establish database connections
 - Initialize resources
-##### **3.2 service() Method**
+##### 3.2 service() Method
 java
 
 ```java
@@ -166,13 +166,13 @@ protected void service(HttpServletRequest request,
 }
 ```
 
-**Purpose:**
+Purpose:
 
 - Handle client requests
 - Route to appropriate handler methods
 - Called multiple times (once per request)
 
-##### **3.3 destroy() Method**
+##### 3.3 destroy() Method
 ```java
 public void destroy() {
     // Cleanup code here
@@ -181,28 +181,28 @@ public void destroy() {
 }
 ```
 
-**Purpose:**
+Purpose:
 - Release resources
 - Close connections
 - Save persistent state
 - Perform cleanup operations
 
-### **4. JSDK (Java Servlet Development Kit)**
+### 4. JSDK (Java Servlet Development Kit)
 
 JSDK provides the necessary libraries and tools to develop Java servlets. It includes:
 - Servlet API classes and interfaces
 - Development tools
 - Documentation
 - Sample servlets
-#### **Core Components:**
+#### Core Components:
 
-1. **javax.servlet package** - Core servlet interfaces
-2. **javax.servlet.http package** - HTTP-specific servlet support
-3. **Servlet container** - Runtime environment
+1. javax.servlet package - Core servlet interfaces
+2. javax.servlet.http package - HTTP-specific servlet support
+3. Servlet container - Runtime environment
 
 ---
-### **5. The Servlet API**
-#### **5.1 Core Interfaces and Classes**
+### 5. The Servlet API
+#### 5.1 Core Interfaces and Classes
 
 ```
 Servlet API Hierarchy:
@@ -222,9 +222,9 @@ HttpServlet (abstract class)
 YourServlet (concrete class)
 ```
 
-#### **5.2 Key Interfaces:**
+#### 5.2 Key Interfaces:
 
-##### **Servlet Interface**
+##### Servlet Interface
 ```java
 public interface Servlet {
     void init(ServletConfig config) throws ServletException;
@@ -236,7 +236,7 @@ public interface Servlet {
 }
 ```
 
-##### **ServletConfig Interface**
+##### ServletConfig Interface
 ```java
 public interface ServletConfig {
     String getServletName();
@@ -246,7 +246,7 @@ public interface ServletConfig {
 }
 ```
 
-##### **ServletContext Interface**
+##### ServletContext Interface
 ```java
 public interface ServletContext {
     Object getAttribute(String name);
@@ -258,10 +258,10 @@ public interface ServletContext {
 ```
 
 ---
-### **6. The javax.servlet Package**
+### 6. The javax.servlet Package
 
-#### **6.1 Important Classes and Interfaces:**
-**GenericServlet** - Protocol-independent servlet base class
+#### 6.1 Important Classes and Interfaces:
+GenericServlet - Protocol-independent servlet base class
 ```java
 import javax.servlet.*;
 import java.io.*;
@@ -280,9 +280,9 @@ public class MyGenericServlet extends GenericServlet {
 }
 ```
 
-#### **6.2 ServletRequest Interface**
+#### 6.2 ServletRequest Interface
 
-**Methods:**
+Methods:
 - `String getParameter(String name)` - Get single parameter
 - `String[] getParameterValues(String name)` - Get multiple values
 - `Enumeration getParameterNames()` - Get all parameter names
@@ -290,9 +290,9 @@ public class MyGenericServlet extends GenericServlet {
 - `String getRemoteAddr()` - Get client IP
 - `int getContentLength()` - Get content length
 
-#### **6.3 ServletResponse Interface**
+#### 6.3 ServletResponse Interface
 
-**Methods:**
+Methods:
 
 - `void setContentType(String type)` - Set response content type
 - `PrintWriter getWriter()` - Get character output stream
@@ -301,19 +301,19 @@ public class MyGenericServlet extends GenericServlet {
 
 ---
 
-### **7. Reading Servlet Parameters**
+### 7. Reading Servlet Parameters
 
-#### **7.1 Request Parameters**
+#### 7.1 Request Parameters
 
 Request parameters are sent from client to server via:
 
-- **URL query string** (GET method)
-- **Request body** (POST method)
-- **HTML forms**
+- URL query string (GET method)
+- Request body (POST method)
+- HTML forms
 
-#### **Example 1: Simple Parameter Reading**
+#### Example 1: Simple Parameter Reading
 
-**HTML Form:**
+HTML Form:
 
 html
 
@@ -350,7 +350,7 @@ html
 </html>
 ```
 
-**Servlet Implementation:**
+Servlet Implementation:
 
 java
 
@@ -401,7 +401,7 @@ public class RegisterServlet extends HttpServlet {
 }
 ```
 
-#### **Example 2: Advanced Parameter Handling**
+#### Example 2: Advanced Parameter Handling
 ```java
 import java.io.*;
 import java.util.*;
@@ -452,17 +452,17 @@ public class AdvancedParameterServlet extends HttpServlet {
 
 ---
 
-### **8. Reading Initialization Parameters**
+### 8. Reading Initialization Parameters
 
-#### **8.1 What are Initialization Parameters?**
+#### 8.1 What are Initialization Parameters?
 
-Initialization parameters are configuration values defined in **web.xml** that are available to servlets during their lifetime. They are loaded once when the servlet is initialized.
-#### **Types:**
-1. **Servlet-specific parameters** - Available to one servlet
-2. **Context parameters** - Available to all servlets in the application
-#### **8.2 Servlet Initialization Parameters**
+Initialization parameters are configuration values defined in web.xml that are available to servlets during their lifetime. They are loaded once when the servlet is initialized.
+#### Types:
+1. Servlet-specific parameters - Available to one servlet
+2. Context parameters - Available to all servlets in the application
+#### 8.2 Servlet Initialization Parameters
 
-**web.xml Configuration:**
+web.xml Configuration:
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <web-app xmlns="https://jakarta.ee/xml/ns/jakartaee"
@@ -481,7 +481,7 @@ Initialization parameters are configuration values defined in **web.xml** that a
 </web-app>
 ```
 
-**Servlet Implementation:**
+Servlet Implementation:
 
 java
 
@@ -562,7 +562,7 @@ public class ConfigServlet extends HttpServlet {
 }
 ```
 
-#### **8.3 Using Annotations (Servlet 3.0+)**
+#### 8.3 Using Annotations (Servlet 3.0+)
 
 java
 
@@ -608,13 +608,13 @@ public class AnnotationConfigServlet extends HttpServlet {
 
 ---
 
-### **9. The javax.servlet.http Package**
+### 9. The javax.servlet.http Package
 
-#### **9.1 HttpServlet Class**
+#### 9.1 HttpServlet Class
 
 The most commonly used class for creating web applications.
 
-**Key Methods:**
+Key Methods:
 ```java
 protected void doGet(HttpServletRequest req, HttpServletResponse resp)
 protected void doPost(HttpServletRequest req, HttpServletResponse resp)
@@ -624,9 +624,9 @@ protected void doHead(HttpServletRequest req, HttpServletResponse resp)
 protected void doOptions(HttpServletRequest req, HttpServletResponse resp)
 ```
 
-#### **9.2 HttpServletRequest Interface**
+#### 9.2 HttpServletRequest Interface
 
-**Important Methods:**
+Important Methods:
 ```java
 // Parameter methods
 String getParameter(String name)
@@ -657,9 +657,9 @@ String getRemoteHost()
 int getServerPort()
 ```
 
-#### **9.3 HttpServletResponse Interface**
+#### 9.3 HttpServletResponse Interface
 
-**Important Methods:**
+Important Methods:
 ```java
 // Response status
 void setStatus(int sc)
@@ -687,9 +687,9 @@ ServletOutputStream getOutputStream()
 
 ---
 
-### **10. Handling HTTP Requests and Responses**
+### 10. Handling HTTP Requests and Responses
 
-#### **10.1 GET Request Handler**
+#### 10.1 GET Request Handler
 ```java
 import javax.servlet.*;
 import javax.servlet.http.*;
@@ -760,7 +760,7 @@ public class SearchServlet extends HttpServlet {
 }
 ```
 
-**HTML Form for Testing:**
+HTML Form for Testing:
 ```html
 <!DOCTYPE html>
 <html>
@@ -783,7 +783,7 @@ public class SearchServlet extends HttpServlet {
 </html>
 ```
 
-#### **10.2 POST Request Handler**
+#### 10.2 POST Request Handler
 ```java
 import javax.servlet.*;
 import javax.servlet.http.*;
@@ -883,7 +883,7 @@ public class LoginServlet extends HttpServlet {
 }
 ```
 
-**login.html:**
+login.html:
 ```html
 <!DOCTYPE html>
 <html>

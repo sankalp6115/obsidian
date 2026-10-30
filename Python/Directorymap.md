@@ -311,7 +311,9 @@ That would be incredibly useful for AI workflows.
 ## Or even better...
 
 ```
-directorymap generate --for claudedirectorymap generate --for chatgptdirectorymap generate --for gemini
+directorymap generate --for claude
+directorymap generate --for chatgpt
+directorymap generate --for gemini
 ```
 
 Each profile could optimize differently.

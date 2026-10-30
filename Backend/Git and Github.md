@@ -28,7 +28,7 @@ if code was added it removes that, if code was removed it again writes it, makes
 
 reset \<commit-id\>
 reset --hard \<commit-id\>
-moves the **HEAD pointer** (your current branch) to another commit.
+moves the HEAD pointer (your current branch) to another commit.
 Resets head of branch to commit-id mentioned in command
 If we go up the history, we completely lose the later commits.
 

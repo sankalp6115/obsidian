@@ -1606,19 +1606,12 @@ IMD uses:
 RSMC New Delhi also provides:
 
 - cyclone detection
-    
 - tracking
-    
 - track forecasts
-    
 - intensity forecasts
-    
 - storm-surge guidance
-    
 - marine warnings
-    
 - cyclone bulletins
-    
 
 ([RSMC New Delhi](https://rsmcnewdelhi.imd.gov.in/?utm_source=chatgpt.com))
 

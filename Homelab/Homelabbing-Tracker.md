@@ -5,7 +5,7 @@ Remote file storage system with media player functionality.
 Miniserve
 dufs
 #### Homelab-monitor
-UI to monitor activity of devices of the lab, to be replaced by galnces in future.
+UI to monitor activity of devices of the lab, to be replaced by glances in future.
 #### YT-Downloader
 App to simply download youtube videos.
 #### Keybinder

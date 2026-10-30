@@ -2,16 +2,16 @@
 
 Goal: understand base cases and shrinking input.
 
-1. **Print numbers from `1` to `N`**
-2. **Print numbers from `N` to `1`**
-3. **Sum of first `N` natural numbers**
-4. **Factorial of `N`**
-5. **Calculate `a^b`**
-6. **Count digits in an integer**
-7. **Sum of digits of an integer**
-8. **Reverse a string**
-9. **Check if a string is a palindrome**
-10. **Find maximum element in an array**
+1. Print numbers from `1` to `N`
+2. Print numbers from `N` to `1`
+3. Sum of first `N` natural numbers
+4. Factorial of `N`
+5. Calculate `a^b`
+6. Count digits in an integer
+7. Sum of digits of an integer
+8. Reverse a string
+9. Check if a string is a palindrome
+10. Find maximum element in an array
 
 ---
 
@@ -19,15 +19,15 @@ Goal: understand base cases and shrinking input.
 
 Goal: think in terms of "solve smaller problem first".
 
-11. **Find minimum element in an array**
-12. **Sum of array elements**
-13. **Check if an array is sorted**
-14. **Count occurrences of a number in an array**
-15. **Find first occurrence of an element**
-16. **Find last occurrence of an element**
-17.  **Remove a character from a string**
-18. **Replace all occurrences of a character**
-19. **Move all occurrences of a character to the end**
+11. Find minimum element in an array
+12. Sum of array elements
+13. Check if an array is sorted
+14. Count occurrences of a number in an array
+15. Find first occurrence of an element
+16. Find last occurrence of an element
+17.  Remove a character from a string
+18. Replace all occurrences of a character
+19. Move all occurrences of a character to the end
 20. Remove consecutive duplicate characters 
 
 Example:

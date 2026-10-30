@@ -1,4 +1,4 @@
-#### **1.1 What is JDBC?**
+## **1.1 What is JDBC?**
 
 **JDBC (Java Database Connectivity)** is a Java API that enables Java applications to interact with databases. It provides methods to query and update data in a database and is oriented towards relational databases.
 
@@ -59,7 +59,7 @@
     - Platform independent
     - Best performance
 
-### **2. Core JDBC Components**
+## **2. Core JDBC Components**
 
 #### **2.1 Key Interfaces and Classes**
 
@@ -75,7 +75,7 @@ java.sql.ResultSetMetaData  // Result set metadata
 java.sql.DatabaseMetaData   // Database metadata
 ```
 
-### **3. JDBC Programming Steps**
+## 3. JDBC Programming Steps
 #### **Complete JDBC Workflow:**
 
 ```

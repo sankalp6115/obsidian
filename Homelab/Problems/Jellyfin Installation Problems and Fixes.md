@@ -1,4 +1,4 @@
-# 🧠 Goal
+## 🧠 Goal
 
 Run **Jellyfin on Android using Termux + proot (Ubuntu)**
 

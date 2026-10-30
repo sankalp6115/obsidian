@@ -13,6 +13,10 @@
 	- Proxmox VE
 	- Docker containerize apps
 - Discrete Topics - 
+	- Real time backend -
+		- Presence system
+		- Collaborative editing
+		- CRDT
 	- Rainbow Table Attack vs Dictionary Attack
 	- DB Group Commit - for a lot of http requests, they are saved in queue, made a batch, then less no of sql queries is done for the whole batch, instead of running query for every single request
 	- Trie
@@ -27,7 +31,6 @@
 	- Segmented Log
 	- High-Water mark
 	- Lease
-	- 
 	- Gossip Protocol
 	- Phi Accrual Failure Detection
 	- Split-brain
@@ -46,7 +49,7 @@
 	- Idempotency
 	- Circuit Breakers
 	- Exponential Backoff + Jitter
-	- Rate Limiting: Token Bucket
+	- Rate Limiting
 	- Recover database state after crashes.
 	- File Descriptors
 	- Virtual Memory and Page Faults
@@ -102,6 +105,7 @@
 	- HTTP (Stateless / Stateful Arch)
 	- Auth n Auth + Validation n Transformations
 	- Controller, Service, Middleware, Request Context
+	- Sticky Sessions
 
 
 ### Skills
@@ -124,11 +128,12 @@
 	- Docker / Podman
 	- Proficient working with VMs and Linux
 	- Linux Fluency
-	- Bash Script
+	- Bash Scripting
 	- Monitoring Basics
 	- Bootstrap scripts
 	- tmux orchestration
 	- gh actions
+	- Nginx
 - Core - 
 	- 
 - VCS - 
@@ -136,7 +141,6 @@
 	- Github
 - Database - 
 	- MySQL
-	- PostgreSQL
 	- SQLite
 	- DBMate Migrations
 - Backend - 
@@ -144,7 +148,6 @@
 	- FastAPI
 	- FastAPI services
 	- Express
-	- Go
 	- SQLAlchemy
 - Runtime / Package Managers - 
 	- Node
@@ -166,6 +169,12 @@
 	- applescript / osascript
 	- regex
 	- tailscale networking
+
+Skills for Resume:
+HTML,CSS,React,JS,Node,Python,Java,FastAPI
+
+React, Python, JS, FastAPI, Tailwind, Java, Git, PostgreSQL, Data Structures and Algorithms, Machine Learning, Docker, Bash Scripting, Linux, Basic System Design, Computer Networking
+![[Pasted image 20261024234558.png]]
 
 ### Things I am aware about
 Prometheus

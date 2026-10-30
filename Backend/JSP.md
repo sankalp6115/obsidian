@@ -1,15 +1,16 @@
-JSP is a **server-side technology** used to create dynamic web pages using: HTML+Java Code.
-JSP is internally converted into a **Servlet** by the server (e.g., Apache Tomcat).
-## **JSP Lifecycle**
+JSP is a server-side technology used to create dynamic web pages using: HTML+Java Code.
+JSP is internally converted into a Servlet by the server (e.g., Apache Tomcat).
+## JSP Lifecycle
+
 1. Translation (JSP → Servlet)
 2. Compilation
 3. Class loading
 4. Initialization (`jspInit()`)
 5. Request handling (`_jspService()`)
 6. Destruction (`jspDestroy()`)
-# **2. Anatomy of a JSP Page**
+## 2. Anatomy of a JSP Page
 
-### **Basic Structure**
+### Basic Structure
 
 ```jsp
 <%@ page language="java" contentType="text/html" %>
@@ -25,21 +26,21 @@ JSP is internally converted into a **Servlet** by the server (e.g., Apache Tomca
 </html>
 ```
 
-## **Components**
+## Components
 
-### 1. **Directives**
-Directives provide **global instructions** to the JSP container — they affect the whole page during translation into a servlet.
+### 1. Directives
+Directives provide global instructions to the JSP container — they affect the whole page during translation into a servlet.
 
 ```
 <%@ page import="java.util.*" %>
 ```
-### 2. **Scriptlets**
-Allow embedding **Java code** inside JSP.
+### 2. Scriptlets
+Allow embedding Java code inside JSP.
 ```
 <%int x = 10;%>
 ```
-### 3. **Expressions**
-Used to **directly output values** to the browser.
+### 3. Expressions
+Used to directly output values to the browser.
 ```jsp
 <%= x %>
 ```
@@ -48,7 +49,7 @@ Used to **directly output values** to the browser.
 
 ---
 
-### 4. **Comments**
+### 4. Comments
 
 ```
 <%-- hidden comment --%>
@@ -57,7 +58,7 @@ Used to **directly output values** to the browser.
 
 ## JSP Application Design using MVC
 ![JavaBeans Communicating with Events (Intro)](https://images.openai.com/static-rsc-4/IAST1-KFQ--U_U4Ni6VzfrzIT-UGIlr5ZbYOv84aMF0x7FnMOPNUt5dNoUoet67F5CLFFz-V4YK4ryr0hiNIKw-wsHQnMVjAeIDr_qV0WWdQcpdOExjGov8_Ju5bn5gZMSvRAKyV2o5_rNUoxFuV3HK-inZGnSHzlZYsSMyw_mNd6hPn9frTmn4jgC2oltGO?purpose=fullsize)
-### **MVC Components**
+### MVC Components
 ![MVC - Glossary | MDN](https://developer.mozilla.org/en-US/docs/Glossary/MVC/model-view-controller-light-blue.png)
 
 |Component|Role|
@@ -65,14 +66,14 @@ Used to **directly output values** to the browser.
 |Model|Business logic (JavaBeans)|
 |View|JSP|
 |Controller|Servlet|
-## **Flow**
+## Flow
 
 1. Client sends request
 2. Servlet (Controller) processes
 3. Calls Model (JavaBeans)
 4. Forwards to JSP (View)
 5. JSP displays result
-## **Example**
+## Example
 
 ### Servlet (Controller)
 
@@ -89,7 +90,7 @@ request.getRequestDispatcher("welcome.jsp").forward(request, response);
 ```
 
 
-# **4. Generating Dynamic Content in JSP**
+## 4. Generating Dynamic Content in JSP
 
 ### Example
 
@@ -109,9 +110,9 @@ int b = 10;
 	%>
 ```
 
-# **5. JSP Scripting Elements**
+## 5. JSP Scripting Elements
 
-## **Types**
+## Types
 
 ### 1. Scriptlet
 
@@ -131,17 +132,17 @@ int b = 10;
 <%! int x = 10; %>
 ```
 
-## **Difference**
+## Difference
 
 | Element     | Scope                 |
 | ----------- | --------------------- |
 | Scriptlet   | Inside service method |
 | Declaration | Class level           |
 | Expression  | Output                |
-# **6. Implicit JSP Objects**
+## 6. Implicit JSP Objects
 
-JSP provides **predefined objects** (no need to create manually).
-## **Important Objects**
+JSP provides predefined objects (no need to create manually).
+## Important Objects
 
 | Object      | Type                | Use           |
 | ----------- | ------------------- | ------------- |
@@ -152,25 +153,25 @@ JSP provides **predefined objects** (no need to create manually).
 | out         | JspWriter           | Output        |
 | config      | ServletConfig       | Config        |
 | pageContext | PageContext         | Page scope    |
-## **Example**
+## Example
 
 ```
 <%String user = (String) session.getAttribute("user");%><h1>Welcome <%= user %></h1>
 ```
 
-# **7. Conditional Processing in JSP**
+## 7. Conditional Processing in JSP
 
-### **If Condition**
+### If Condition
 
 ```
 <%if(session.getAttribute("user") != null) {%>    <h1>Logged In</h1><%} else {%>    <h1>Please Login</h1><%}%>
 ```
 
-# **8. Sharing Session and Application Data**
+## 8. Sharing Session and Application Data
 
 ---
 
-## **Session Scope (User-specific)**
+### Session Scope (User-specific)
 
 ```
 <%session.setAttribute("username", "Sankalp");%>
@@ -184,7 +185,7 @@ Retrieve:
 
 ---
 
-## **Application Scope (Global)**
+### Application Scope (Global)
 
 ```
 <%application.setAttribute("siteName", "MyWebsite");%>
@@ -195,7 +196,7 @@ Retrieve:
 ```
 <%= application.getAttribute("siteName") %>
 ```
-## **Difference**
+### Difference
 
 |Scope|Lifetime|Visibility|
 |---|---|---|
@@ -204,13 +205,13 @@ Retrieve:
 
 ---
 
-# **9. Memory Usage Considerations**
+## 9. Memory Usage Considerations
 
-This is **important for exams**.
+This is important for exams.
 
 ---
 
-## **Problems**
+### Problems
 
 - Too much data in session → memory overflow
 - Large objects → performance issues
@@ -218,9 +219,9 @@ This is **important for exams**.
 
 ---
 
-## **Best Practices**
+### Best Practices
 
-### 1. **Minimize Session Data**
+### 1. Minimize Session Data
 
 Bad:
 
@@ -235,31 +236,31 @@ Good:
 
 ---
 
-### 2. **Use Application Scope Carefully**
+### 2. Use Application Scope Carefully
 
 - Avoid storing user-specific data
 
 ---
 
-### 3. **Avoid Business Logic in JSP**
+### 3. Avoid Business Logic in JSP
 
 - Move logic to Servlets / JavaBeans
 
 ---
 
-### 4. **Use MVC Architecture**
+### 4. Use MVC Architecture
 
 - Keeps JSP lightweight
 
 ---
 
-### 5. **Session Timeout**
+### 5. Session Timeout
 
 - Prevent memory leaks
 
 ---
 
-### 6. **Invalidate Sessions**
+### 6. Invalidate Sessions
 
 ```
 session.invalidate();
@@ -267,7 +268,7 @@ session.invalidate();
 
 ---
 
-# **Key Exam Points (High Value)**
+# Key Exam Points (High Value)
 
 - JSP is converted into Servlet
 - MVC = Servlet + JSP + JavaBeans

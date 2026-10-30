@@ -12,3 +12,5 @@ Remotion library - generate video using js
 
 https://portswigger.net/web-security
 https://owasp.org/projects/top-ten
+
+https://discord.com/blog/how-discord-scaled-elixir-to-5-000-000-concurrent-users
