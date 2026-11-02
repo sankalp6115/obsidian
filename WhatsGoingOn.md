@@ -68,8 +68,7 @@
 	- Eventual Consistency
 	- Understand why replicas can temporarily disagree.
 ### Running
-- Backend from first principles
-- Dynamic Programming
+- DBMS PGSQL
 
 ### Discrete Topics Known
 - System Design -

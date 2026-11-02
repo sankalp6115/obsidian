@@ -2,6 +2,7 @@ https://selfh.st/apps/
 https://community-scripts.org/
 https://terminal-apps.dev/
 
+
 ### Good
 Gotify
 Uptime Kuma

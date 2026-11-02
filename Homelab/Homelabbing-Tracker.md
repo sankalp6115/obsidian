@@ -31,6 +31,10 @@ Portainer
 Gotify
 Uptime-Kuma
 
+### Control Plane
+DeskFlow Software KVM - Controls other devices via macbook
+homelab command of linux
+
 ### More ideas
 [[Homelab Ideas to GO]]
 
