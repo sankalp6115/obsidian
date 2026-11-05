@@ -56,7 +56,11 @@ Used to search for text patterns in files or outputs. It filters and displays li
 
 #### >
 Redirection is used to redirect output of a command to a file.
+Clears previous content and pushes new content to file.
 
+#### >>
+Redirection is used to redirect output of a command to a file.
+Appends new content to previosu content.
 
 eg. cat error.log | grep Database > db_errors.txt
 Only outputs those lines from error.log file content which contain the word "Database" and redirects them to db_errors.txt file. 
@@ -147,3 +151,90 @@ This is the most common header you'll see in professional Bash scripts
 ${VAR:-default}
 ```
 "If `VAR` is unset or empty, use `default` instead."
+
+
+### Weather info
+```bash
+curl wttr.in/kanpur
+sankalp@ROG:~$ curl wttr.in/kanpur
+Weather report: kanpur
+
+      \   /     Clear
+       .-.      +25(24) °C
+    ― (   ) ―   → 8 km/h
+       `-’      10 km
+      /   \     0.0 mm
+                                                       ┌─────────────┐
+┌──────────────────────────────┬───────────────────────┤  Tue 03 Nov ├───────────────────────┬──────────────────────────────┐
+│            Morning           │             Noon      └──────┬──────┘     Evening           │             Night            │
+├──────────────────────────────┼──────────────────────────────┼──────────────────────────────┼──────────────────────────────┤
+│     .-.       Haze           │     \   /     Sunny          │     \   /     Clear          │     \   /     Clear          │
+│      __)      27 °C          │      .-.      +30(29) °C     │      .-.      +25(26) °C     │      .-.      +24(25) °C     │
+│     (         ↘ 10-13 km/h   │   ― (   ) ―   → 12-13 km/h   │   ― (   ) ―   → 8 km/h       │   ― (   ) ―   → 6 km/h       │
+│      `-’      5 km           │      `-’      8 km           │      `-’      10 km          │      `-’      8 km           │
+│       •       0.0 mm | 1%    │     /   \     0.0 mm | 1%    │     /   \     0.0 mm | 1%    │     /   \     0.0 mm | 1%    │
+└──────────────────────────────┴──────────────────────────────┴──────────────────────────────┴──────────────────────────────┘
+                                                       ┌─────────────┐
+┌──────────────────────────────┬───────────────────────┤  Wed 04 Nov ├───────────────────────┬──────────────────────────────┐
+│            Morning           │             Noon      └──────┬──────┘     Evening           │             Night            │
+├──────────────────────────────┼──────────────────────────────┼──────────────────────────────┼──────────────────────────────┤
+│     \   /     Sunny          │     \   /     Sunny          │               Overcast       │               Overcast       │
+│      .-.      26 °C          │      .-.      +30(28) °C     │      .--.     25 °C          │      .--.     +24(25) °C     │
+│   ― (   ) ―   ↗ 9-11 km/h    │   ― (   ) ―   → 10-12 km/h   │   .-(    ).   → 4 km/h       │   .-(    ).   ↗ 4 km/h       │
+│      `-’      7 km           │      `-’      5 km           │  (___.__)__)  7 km           │  (___.__)__)  6 km           │
+│     /   \     0.0 mm | 2%    │     /   \     0.0 mm | 1%    │               0.0 mm | 10%   │               0.0 mm | 10%   │
+└──────────────────────────────┴──────────────────────────────┴──────────────────────────────┴──────────────────────────────┘
+                                                       ┌─────────────┐
+┌──────────────────────────────┬───────────────────────┤  Thu 05 Nov ├───────────────────────┬──────────────────────────────┐
+│            Morning           │             Noon      └──────┬──────┘     Evening           │             Night            │
+├──────────────────────────────┼──────────────────────────────┼──────────────────────────────┼──────────────────────────────┤
+│     .-.       Smoky haze     │     \   /     Sunny          │     \   /     Clear          │     .-.       Haze           │
+│      __)      26 °C          │      .-.      +30(28) °C     │      .-.      26 °C          │      __)      +24(25) °C     │
+│     (         ↗ 8-10 km/h    │   ― (   ) ―   → 9-10 km/h    │   ― (   ) ―   ↘ 2 km/h       │     (         → 0-1 km/h     │
+│      `-’      8 km           │      `-’      6 km           │      `-’      6 km           │      `-’      5 km           │
+│       •       0.0 mm | 1%    │     /   \     0.0 mm | 0%    │     /   \     0.0 mm | 1%    │       •       0.0 mm | 1%    │
+└──────────────────────────────┴──────────────────────────────┴──────────────────────────────┴──────────────────────────────┘
+Location: Kanpur, Kanpur Nagar, Uttar Pradesh, 208012, India [26.4609135,80.3217588]
+
+Follow @igor_chubin for wttr.in updates
+```
+
+
+### File System
+Starting pt is root dir
+| Directory | Purpose |
+| --------- | --------- |
+
+| Directory | Purpose                                            |
+| --------- | -------------------------------------------------- |
+| /bin      | Essential user command binaries                    |
+| /boot     | Static files of bootloader                         |
+| /dev      | Device files                                       |
+| /etc      | Editable text config, host specific system configs |
+| /home     | all users (other than root) directories live here  |
+| /lib      | shared libraries                                   |
+| /media    | removable media                                    |
+| /mnt      | temporary mounted fs                               |
+| /opt      | add-on app software package                        |
+| /sbin     | system binaries                                    |
+| /srv      | data for svc from system                           |
+| /tmp      | temporary fs                                       |
+| /usr      | user utilities and applications                    |
+| /proc     | process info                                       |
+| /var      | changing files like logs etc live here             |
+|           |                                                    
+/root: ultra-secure private suite reserved for root user (Superuser) (Admin)
+
+### Absolute and Relative Paths
+absolute: full path from root directory
+e.g. 
+```bash
+cd /home/manish/devops
+#current dir: /home/manish
+```
+relative: incomplete path from current directory
+```bash
+cd devops
+#current dir: /home/manish
+```
+

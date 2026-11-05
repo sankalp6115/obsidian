@@ -11,7 +11,6 @@
 	- Light container / lightweight ways to deploy
 	- LXC
 	- Proxmox VE
-	- Docker containerize apps
 - Discrete Topics - 
 	- Real time backend -
 		- Presence system
@@ -19,8 +18,6 @@
 		- CRDT
 	- Rainbow Table Attack vs Dictionary Attack
 	- DB Group Commit - for a lot of http requests, they are saved in queue, made a batch, then less no of sql queries is done for the whole batch, instead of running query for every single request
-	- Trie
-	- Consistent Hashing
 	- Quorum
 	- Leader and Follower
 	- Write-ahead Log
@@ -43,11 +40,8 @@
 	- Read Repair
 	- Merkle Trees
 	- Skip Lists
-	- Monotonic Stacks
 	- Disjoint Set Union
 	- Reservoir Sampling
-	- Idempotency
-	- Circuit Breakers
 	- Exponential Backoff + Jitter
 	- Rate Limiting
 	- Recover database state after crashes.
@@ -62,7 +56,6 @@
 	- SQL Injection and Prepared Statements
 	- Password Hashing: Argon2 and bcrypt
 	- MVCC
-	- Database Indexes and B+ Trees
 	- Vector Clocks
 	- Raft Consensus: The Big Picture
 	- Eventual Consistency
@@ -72,6 +65,8 @@
 
 ### Discrete Topics Known
 - System Design -
+	- Idempotency
+	- Consistent Hashing
 	- Circuit Breaker
 	- Bloom Filter
 	- Back of Envelope Estimation
@@ -88,7 +83,9 @@
 	- BST
 	- AVL
 	- RBTree
-	- B-Tree
+	- B-Trees
+	- B+Trees
+	- Binomial Heap, Fibonacci Heap
 	- Graph
 	- Trie
 - SSH - 
@@ -105,7 +102,10 @@
 	- Auth n Auth + Validation n Transformations
 	- Controller, Service, Middleware, Request Context
 	- Sticky Sessions
-
+- DB -
+	- Indexes
+	- B-Trees
+	- B+Trees
 
 ### Skills
 - Frontend - 
@@ -170,10 +170,39 @@
 	- tailscale networking
 
 Skills for Resume:
-HTML,CSS,React,JS,Node,Python,Java,FastAPI
+Language: Java, Python, JS, Go
+Frontend: HTML,CSS,JS,React,Tailwind, UI/UX
+Backend: FastAPI, Express, Middleware, Auth
+Database: SQL, PostgreSQL, SQLite, MongoDB, FAISS
+System Design: LLD,HLD,Basics
+Tools: Git, Github, Linux
+Devops: Docker
+Automation and Workflow: Bash Scripting, Python Scripting
+Core Subjects: Computer Networking, Data Structures and Algorithms, Operating Systems
+Machine Learning: Core ML, scikit-learn, TensorFlow, Clustering
+Deep Learning: Basics
+Cloud: 
 
-React, Python, JS, FastAPI, Tailwind, Java, Git, PostgreSQL, Data Structures and Algorithms, Machine Learning, Docker, Bash Scripting, Linux, Basic System Design, Computer Networking
-![[Pasted image 20261024234558.png]]
+### About
+I am a Full Stack Developer specialising in Backend Development, with strong focus on understanding software engineering fundamentals.
+I enjoy learning and developing scalable and reliable systems while developing a deep understanding of underlying systems, architecture and technologies. My primary interests include backend engineering, system design, database management and problem solving.
+
+My technical skills include:
+Language: Java, Python, JS, Go
+Frontend: HTML,CSS,JS,React,Tailwind, UI/UX
+Backend: FastAPI, Express, Middleware, Auth
+Database: SQL, PostgreSQL, SQLite, MongoDB, FAISS
+System Design: LLD,HLD,Basics
+Tools: Git, Github, Linux
+Devops: Docker
+Automation and Workflow: Bash Scripting, Python Scripting
+Core Subjects: Computer Networking, Data Structures and Algorithms, Operating Systems
+Machine Learning: Core ML, scikit-learn, TensorFlow, Clustering, Basic DL
+
+I have been consistently working on developing my problem solving logic via practice of Algorithms, learning system design concepts, and backend development concepts.
+
+I enjoy applying what I learn through projects, experimenting with different technologies.
+I have worked on great projects which can be seen on my github profile. (www.github.com/sankalp6115)
 
 ### Things I am aware about
 Prometheus
@@ -227,7 +256,7 @@ Did webpage testing for HAWC R&D in internship
 - Adobe round 1 cleared (Useless)
 - Among top 1.4% in engineering (JEE Main)
 - LeetCode 400+
-- Leetcode (1500+ rated)
+- Leetcode (1600+ rated)
 - CP (Codechef 1400+ rating) - 2⭐️
 - Total 800+
 ### Academic Books Read

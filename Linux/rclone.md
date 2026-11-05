@@ -107,7 +107,7 @@ rclone copy gdrive:Photos D:\Photos
 Drive → Drive
 
 ```
-rclone copy gdrive1:Docs gdrive2:Docs
+rclone copy gdrive:Docs gdrive2:Docs
 ```
 
 Show progress
