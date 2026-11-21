@@ -1,5 +1,6 @@
 ### To Explore/Study
 - Domains - 
+	- Feature Flagging
 	- Ansible
 	- System Design
 	- Networking
@@ -81,7 +82,7 @@
 	- Queue
 	- BT
 	- BST
-	- AVL
+	- AVL Tree
 	- RBTree
 	- B-Trees
 	- B+Trees

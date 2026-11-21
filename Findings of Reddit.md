@@ -1,0 +1,1 @@
+https://www.reddit.com/r/termux/comments/1xtkrh8/i_made_smoothcursor_a_neovidestyle_smooth_cursor/

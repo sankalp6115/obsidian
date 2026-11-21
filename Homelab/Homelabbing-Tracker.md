@@ -4,6 +4,7 @@ Feature-intensive self hosted music player.
 Remote file storage system with media player functionality.
 Miniserve
 dufs
+now using cloudreve
 #### Homelab-monitor
 UI to monitor activity of devices of the lab, to be replaced by glances in future.
 #### YT-Downloader

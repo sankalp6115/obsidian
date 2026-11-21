@@ -12,7 +12,7 @@ Iske pas brain hai par hath nhi
 AI Agent
 Tum isse apni requirement bataoge, ye sochega kya karna hai, kaise karna hai, basically planning karega, optimise karega, task karna kaise hai wo bhi plan karega
 And finally task complete kardega
-Iske andar GenAI ke models jese GPT, Claude,Gemini hi kaam karte hai
+Iske andar GenAI ke models jese GPT,Claude,Gemini hi kaam karte hai
 Iske pas brain aur hath dono hain.
 Brain as LLM models
 Tools as hands

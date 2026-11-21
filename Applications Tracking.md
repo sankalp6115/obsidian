@@ -12,3 +12,4 @@
 | WellsFargo Test given                                                                     | around 26/10/26 |            |                 |
 | Acadza AI Intern application                                                              | 3/11/26         |            |                 |
 | Glance/Inmobi UX Design                                                                   | 3/11/26         |            |                 |
+| Paypal SWE https://paypal.eightfold.ai/careers/job/274923210258?domain=paypal.com         | 10/11/26        |            |                 |

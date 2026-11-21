@@ -7,9 +7,7 @@ https://terminal-apps.dev/
 Gotify
 Uptime Kuma
 Downtify https://github.com/henriquesebastiao/downtify
-
-### Seen (Not good)
-Nginx Proxy Manager (still problematic with lot of react apps due to routing)
+Nginx Proxy Manager 
 
 ### Explored but yet to implement
 AdGuard Home
@@ -17,12 +15,11 @@ Glances
 Prometheus
 Grafana
 OpenMediaVault
-Jellyfin / Plex / Emby
 URL Shortener
-Grafana Cloud
 Netbird
 
 ### Gotta Explore
+Kiri (Docker container ecosystem)
 Homepage
 Portainer
 Proxmox VE
@@ -35,7 +32,7 @@ Overseerr / Requestrr: Media request management apps. They let family or friends
 
 Immich: An open-source, feature-rich, and very polished Google Photos alternative with a great UI, AI search capabilities, and automatic mobile backups.
 
-Nextcloud / OpenCloud: An all-in-one productivity suite and file sync tool. It can replace Dropbox, Google Drive, and even Google Docs with its built-in office suite[](https://github.com/MrMikeAde/Self-Hosted-Alternatives)[](https://tech.yahoo.com/apps/articles/stop-paying-subscriptions-self-host-123014277.html).
+Nextcloud / OpenCloud: An all-in-one productivity suite and file sync tool. It can replace Dropbox, Google Drive, and even Google Docs with its built-in office suite
 
 Authentik / Authelia: Add a security layer to your self-hosted apps with Single Sign-On (SSO) and Two-Factor Authentication (2FA). Authentik is a modern identity provider, while Authelia is a more lightweight, straightforward alternative[](https://therobbiedavis.com/my-top-10-favorite-self-hosted-apps/#/portal/#/portal/signin).
 
@@ -55,8 +52,4 @@ Proxmox server
 
 [Awesome-Selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted): The ultimate, definitive list of thousands of self-hosted apps[](https://git.osmarks.net/mirrors/awesome-selfhosted/src/commit/99bf838e1debdc2859b73c0b1f84e080e1a8a2f0/README.md).
 
-[Selfh.st](https://selfh.st/): The industry-leading weekly newsletter and app directory for new launches and community news in the self-hosted space[](https://selfh.st/weekly/2025-12-12/?ref=dailydev#videos-and-podcasts).
-
-[Reddit Communities](https://www.reddit.com/r/homelab): The best place for troubleshooting, inspiration, and seeing what others are doing. Check out `r/homelab`, `r/selfhosted`, and `r/HomeServer`.
-
-
+[Selfh.st](https://selfh.st/): The industry-leading weekly newsletter and app directory for new launches and community news in the self-hosted space
